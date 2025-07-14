@@ -1,0 +1,1615 @@
+2025-07-14 10:25:00.646 -04:00 [INF] Logger has been set up
+2025-07-14 10:25:00.709 -04:00 [DBG] .\Program.cs, -o, concurrent_7_14.csv, -t, 7
+2025-07-14 10:25:00.709 -04:00 [INF] Input file found at input.txt. Now loading inputs...
+2025-07-14 10:25:00.715 -04:00 [INF] Inputs: 3MCOMP 11, CRATE&BARREL GTN, DEERE 008 RAIL, DHLDAN 047, DHLDAN 47, FORTUNEBRANDS, HOMEDE 156, KONTOO 4, LOVESA 4, MASTER 651, TARGET 113, TARGET 113 GTN, WALMAR 64
+2025-07-14 10:25:00.715 -04:00 [INF] Skipping dummy containers to save time.
+2025-07-14 10:25:00.715 -04:00 [INF] Macro will distribute work across 7 tasks
+2025-07-14 10:25:00.715 -04:00 [INF] Connecting to FIS...
+2025-07-14 10:25:08.912 -04:00 [INF] Found FIS!
+2025-07-14 10:25:08.912 -04:00 [INF] Using high resolution stopwatch.
+2025-07-14 10:25:08.912 -04:00 [INF] Attempting to open an instance of screen S8600
+2025-07-14 10:25:09.974 -04:00 [INF] Created instance 381056734
+2025-07-14 10:25:09.993 -04:00 [INF] Attempting to open an instance of screen S8600
+2025-07-14 10:25:11.574 -04:00 [INF] Created instance 849814406
+2025-07-14 10:25:11.574 -04:00 [INF] Attempting to open an instance of screen S8600
+2025-07-14 10:25:12.670 -04:00 [INF] Created instance 2110322298
+2025-07-14 10:25:12.671 -04:00 [INF] Attempting to open an instance of screen S8600
+2025-07-14 10:25:13.772 -04:00 [INF] Created instance 802838850
+2025-07-14 10:25:13.772 -04:00 [INF] Attempting to open an instance of screen S8600
+2025-07-14 10:25:14.790 -04:00 [INF] Created instance 660364821
+2025-07-14 10:25:14.792 -04:00 [INF] Attempting to open an instance of screen S8600
+2025-07-14 10:25:15.756 -04:00 [INF] Created instance 1848377385
+2025-07-14 10:25:15.756 -04:00 [INF] Attempting to open an instance of screen S8600
+2025-07-14 10:25:16.744 -04:00 [INF] Created instance 2097256099
+2025-07-14 10:25:16.744 -04:00 [INF] Creating task 0
+2025-07-14 10:25:16.744 -04:00 [INF] Creating task 1
+2025-07-14 10:25:16.744 -04:00 [INF] Task 0 assigned to S8600 screen id 381056734.
+2025-07-14 10:25:16.744 -04:00 [INF] Task 1 assigned to S8600 screen id 849814406.
+2025-07-14 10:25:16.744 -04:00 [INF] Creating task 2
+2025-07-14 10:25:16.744 -04:00 [INF] Creating task 3
+2025-07-14 10:25:16.744 -04:00 [INF] Task 2 assigned to S8600 screen id 2110322298.
+2025-07-14 10:25:16.744 -04:00 [INF] Creating task 4
+2025-07-14 10:25:16.744 -04:00 [INF] Task 3 assigned to S8600 screen id 802838850.
+2025-07-14 10:25:16.751 -04:00 [INF] Creating task 5
+2025-07-14 10:25:16.751 -04:00 [INF] Task 4 assigned to S8600 screen id 660364821.
+2025-07-14 10:25:16.753 -04:00 [INF] Creating task 6
+2025-07-14 10:25:16.753 -04:00 [INF] Task 5 assigned to S8600 screen id 1848377385.
+2025-07-14 10:25:16.754 -04:00 [INF] Task 6 assigned to S8600 screen id 2097256099.
+2025-07-14 10:25:16.760 -04:00 [INF] AHHH
+2025-07-14 10:25:16.760 -04:00 [INF] AHHH
+2025-07-14 10:25:16.760 -04:00 [INF] AHHH
+2025-07-14 10:25:16.760 -04:00 [INF] AHHH
+2025-07-14 10:25:16.760 -04:00 [INF] AHHH
+2025-07-14 10:25:16.761 -04:00 [INF] AHHH
+2025-07-14 10:25:16.762 -04:00 [INF] AHHH
+2025-07-14 10:25:16.764 -04:00 [DBG] FISMacro using screeen ID 381056734 now searching incomplete events from subscription 3MCOMP 11...
+2025-07-14 10:25:16.766 -04:00 [DBG]  ====__ TASK 0: instance 381056734 requesting mutex to run SEARCH __====
+2025-07-14 10:25:16.766 -04:00 [DBG] 	TASK 0 has the mutex (currently searching)
+2025-07-14 10:25:16.768 -04:00 [DBG] FISMacro using screeen ID 849814406 now searching incomplete events from subscription CRATE&BARREL GTN...
+2025-07-14 10:25:16.768 -04:00 [DBG]  ====__ TASK 1: instance 849814406 requesting mutex to run SEARCH __====
+2025-07-14 10:25:16.769 -04:00 [DBG] FISMacro using screeen ID 2110322298 now searching incomplete events from subscription DEERE 008 RAIL...
+2025-07-14 10:25:16.769 -04:00 [DBG]  ====__ TASK 2: instance 2110322298 requesting mutex to run SEARCH __====
+2025-07-14 10:25:16.770 -04:00 [DBG] FISMacro using screeen ID 1848377385 now searching incomplete events from subscription DHLDAN 047...
+2025-07-14 10:25:16.770 -04:00 [DBG]  ====__ TASK 5: instance 1848377385 requesting mutex to run SEARCH __====
+2025-07-14 10:25:16.771 -04:00 [DBG] FISMacro using screeen ID 802838850 now searching incomplete events from subscription DHLDAN 47...
+2025-07-14 10:25:16.771 -04:00 [DBG]  ====__ TASK 3: instance 802838850 requesting mutex to run SEARCH __====
+2025-07-14 10:25:16.772 -04:00 [DBG] FISMacro using screeen ID 2097256099 now searching incomplete events from subscription FORTUNEBRANDS...
+2025-07-14 10:25:16.772 -04:00 [DBG]  ====__ TASK 6: instance 2097256099 requesting mutex to run SEARCH __====
+2025-07-14 10:25:16.772 -04:00 [DBG] FISMacro using screeen ID 660364821 now searching incomplete events from subscription HOMEDE 156...
+2025-07-14 10:25:16.772 -04:00 [DBG]  ====__ TASK 4: instance 660364821 requesting mutex to run SEARCH __====
+2025-07-14 10:25:17.523 -04:00 [INF] TASK 0: Searching incomplete events under subscription 3MCOMP 11
+2025-07-14 10:25:17.984 -04:00 [INF] Found 50 events under subscription 3MCOMP 11
+2025-07-14 10:25:17.984 -04:00 [DBG] 	TASK 0 released the mutex (finished SEARCHing)
+2025-07-14 10:25:17.984 -04:00 [DBG] 	TASK 1 has the mutex (currently searching)
+2025-07-14 10:25:17.984 -04:00 [INF] Finished searching incomplete events for 3MCOMP 11 in 00:01.23
+2025-07-14 10:25:17.984 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:25:18.338 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:25:18.338 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:25:18.692 -04:00 [INF] TASK 1: Searching incomplete events under subscription CRATE&BARREL GTN
+2025-07-14 10:25:19.187 -04:00 [INF] Found 42 events under subscription CRATE&BARREL GTN
+2025-07-14 10:25:19.187 -04:00 [DBG] 	TASK 1 released the mutex (finished SEARCHing)
+2025-07-14 10:25:19.187 -04:00 [INF] Finished searching incomplete events for CRATE&BARREL GTN in 00:02.43
+2025-07-14 10:25:19.187 -04:00 [DBG] 	TASK 2 has the mutex (currently searching)
+2025-07-14 10:25:19.187 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:25:19.202 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:25:19.202 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:25:19.950 -04:00 [INF] TASK 2: Searching incomplete events under subscription DEERE 008 RAIL
+2025-07-14 10:25:20.244 -04:00 [INF] Found 0 events under subscription DEERE 008 RAIL
+2025-07-14 10:25:20.244 -04:00 [DBG] 	TASK 2 released the mutex (finished SEARCHing)
+2025-07-14 10:25:20.244 -04:00 [INF] Finished searching incomplete events for DEERE 008 RAIL in 00:03.48
+2025-07-14 10:25:20.244 -04:00 [DBG] 	TASK 5 has the mutex (currently searching)
+2025-07-14 10:25:20.244 -04:00 [INF] 	TASK 2: Searched and retriggered 0 events in 00:03.48
+2025-07-14 10:25:20.244 -04:00 [DBG] FISMacro using screeen ID 2110322298 now searching incomplete events from subscription KONTOO 4...
+2025-07-14 10:25:20.244 -04:00 [DBG]  ====__ TASK 2: instance 2110322298 requesting mutex to run SEARCH __====
+2025-07-14 10:25:20.920 -04:00 [INF] TASK 5: Searching incomplete events under subscription DHLDAN 047
+2025-07-14 10:25:22.907 -04:00 [INF] Found 50 events under subscription DHLDAN 047
+2025-07-14 10:25:22.907 -04:00 [DBG] 	TASK 5 released the mutex (finished SEARCHing)
+2025-07-14 10:25:22.907 -04:00 [INF] Finished searching incomplete events for DHLDAN 047 in 00:06.13
+2025-07-14 10:25:22.907 -04:00 [DBG] 	TASK 3 has the mutex (currently searching)
+2025-07-14 10:25:22.907 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:25:22.923 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:25:22.923 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:25:23.640 -04:00 [INF] TASK 3: Searching incomplete events under subscription DHLDAN 47
+2025-07-14 10:25:25.697 -04:00 [INF] Found 50 events under subscription DHLDAN 47
+2025-07-14 10:25:25.697 -04:00 [DBG] 	TASK 3 released the mutex (finished SEARCHing)
+2025-07-14 10:25:25.697 -04:00 [INF] Finished searching incomplete events for DHLDAN 47 in 00:08.93
+2025-07-14 10:25:25.697 -04:00 [DBG] 	TASK 6 has the mutex (currently searching)
+2025-07-14 10:25:25.697 -04:00 [DBG] TASK 3 looking for a valid container
+2025-07-14 10:25:25.728 -04:00 [DBG] TASK 3 found a valid container!
+2025-07-14 10:25:25.728 -04:00 [DBG]  __== TASK 3: instance 802838850 requesting mutex to run SEND ==__
+2025-07-14 10:25:26.383 -04:00 [INF] TASK 6: Searching incomplete events under subscription FORTUNEBRANDS
+2025-07-14 10:25:26.715 -04:00 [INF] Found 7 events under subscription FORTUNEBRANDS
+2025-07-14 10:25:26.715 -04:00 [DBG] 	TASK 6 released the mutex (finished SEARCHing)
+2025-07-14 10:25:26.715 -04:00 [INF] Finished searching incomplete events for FORTUNEBRANDS in 00:09.95
+2025-07-14 10:25:26.715 -04:00 [DBG] 	TASK 4 has the mutex (currently searching)
+2025-07-14 10:25:26.715 -04:00 [DBG] TASK 6 looking for a valid container
+2025-07-14 10:25:26.831 -04:00 [DBG]  __== TASK 6: instance 2097256099 requesting mutex to run SEND ==__
+2025-07-14 10:25:27.433 -04:00 [INF] TASK 4: Searching incomplete events under subscription HOMEDE 156
+2025-07-14 10:25:28.002 -04:00 [INF] Found 50 events under subscription HOMEDE 156
+2025-07-14 10:25:28.015 -04:00 [DBG] 	TASK 4 released the mutex (finished SEARCHing)
+2025-07-14 10:25:28.015 -04:00 [INF] Finished searching incomplete events for HOMEDE 156 in 00:11.24
+2025-07-14 10:25:28.015 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:25:28.015 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:25:28.032 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:25:28.033 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:25:28.984 -04:00 [INF] TASK 0 retriggered event 16 of 50 under subscription 3MCOMP 11
+2025-07-14 10:25:28.987 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:25:28.987 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:25:28.992 -04:00 [DBG] ===Task 0:
+	Row 17 of 50:	20790641	|BEAU  6001629	|07/10/2025	|7:30 PM	|VDEP	|MYTPP	|OPT	|HLCUBSC2505BPMC4	|I	| 	|3MCOMP 11
+2025-07-14 10:25:30.004 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:25:30.004 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:25:30.037 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:25:30.037 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:25:31.172 -04:00 [INF] TASK 1 retriggered event 1 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:25:31.182 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:25:31.182 -04:00 [DBG] 	TASK 2 has the mutex (currently searching)
+2025-07-14 10:25:31.182 -04:00 [DBG] ===Task 1:
+	Row 2 of 42:	12195804	|HLBU  1712909	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250660678	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:25:32.203 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:25:32.203 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:25:32.228 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:25:32.228 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:25:32.969 -04:00 [INF] TASK 2: Searching incomplete events under subscription KONTOO 4
+2025-07-14 10:25:33.415 -04:00 [INF] Found 50 events under subscription KONTOO 4
+2025-07-14 10:25:33.416 -04:00 [DBG] 	TASK 2 released the mutex (finished SEARCHing)
+2025-07-14 10:25:33.416 -04:00 [INF] Finished searching incomplete events for KONTOO 4 in 00:13.16
+2025-07-14 10:25:33.416 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:25:33.417 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:25:34.845 -04:00 [INF] TASK 5 retriggered event 1 of 50 under subscription DHLDAN 047
+2025-07-14 10:25:34.849 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:25:34.849 -04:00 [DBG] 	TASK 3 has the mutex (currently SENDing)
+2025-07-14 10:25:34.850 -04:00 [DBG] ===Task 5:
+	Row 2 of 50:	10316284	|FANU  5013250	|07/11/2025	|2:00 AM	|VDEP	|ESVGO	|OPT	|HLCUSCL250570728	|I	| 	|DHLDAN 047
+2025-07-14 10:25:35.856 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:25:35.856 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:25:35.887 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:25:35.887 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:25:37.133 -04:00 [INF] TASK 3 retriggered event 2 of 50 under subscription DHLDAN 47
+2025-07-14 10:25:37.134 -04:00 [DBG] 	TASK 3 released the mutex (finished SENDing)
+2025-07-14 10:25:37.134 -04:00 [DBG] 	TASK 6 has the mutex (currently SENDing)
+2025-07-14 10:25:37.134 -04:00 [INF] TASK 6 found no valid containers in subscription FORTUNEBRANDS
+2025-07-14 10:25:37.134 -04:00 [DBG] ===Task 3:
+	Row 3 of 50:	10316284	|FANU  5013250	|07/11/2025	|2:00 AM	|VDEP	|ESVGO	|OPT	|HLCUSCL250570728	|I	| 	|DHLDAN 47
+2025-07-14 10:25:37.135 -04:00 [DBG] 	TASK 6 released the mutex (finished SENDing)
+2025-07-14 10:25:37.135 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:25:37.135 -04:00 [INF] 	TASK 6: Searched and retriggered 7 events in 00:20.36
+2025-07-14 10:25:37.137 -04:00 [DBG] FISMacro using screeen ID 2097256099 now searching incomplete events from subscription LOVESA 4...
+2025-07-14 10:25:37.137 -04:00 [DBG]  ====__ TASK 6: instance 2097256099 requesting mutex to run SEARCH __====
+2025-07-14 10:25:38.144 -04:00 [DBG] TASK 3 finished waiting
+2025-07-14 10:25:38.144 -04:00 [DBG] TASK 3 looking for a valid container
+2025-07-14 10:25:38.259 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:25:38.363 -04:00 [DBG] TASK 3 found a valid container!
+2025-07-14 10:25:38.363 -04:00 [DBG]  __== TASK 3: instance 802838850 requesting mutex to run SEND ==__
+2025-07-14 10:25:39.444 -04:00 [INF] TASK 4 retriggered event 1 of 50 under subscription HOMEDE 156
+2025-07-14 10:25:39.444 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:25:39.444 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:25:39.444 -04:00 [DBG] ===Task 4:
+	Row 2 of 50:	10860633	|BMOU  4763553	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610140	|I	| 	|HOMEDE 156
+2025-07-14 10:25:40.450 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:25:40.450 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:25:40.544 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:25:40.544 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:25:41.541 -04:00 [INF] TASK 0 retriggered event 17 of 50 under subscription 3MCOMP 11
+2025-07-14 10:25:41.543 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:25:41.544 -04:00 [DBG] ===Task 0:
+	Row 18 of 50:	20790641	|BEAU  6001629	|07/10/2025	|7:30 PM	|VDEP	|MYTPP	|OPT	|HLCUBSC250540018	|I	| 	|3MCOMP 11
+2025-07-14 10:25:41.545 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:25:42.558 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:25:42.558 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:25:42.604 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:25:42.604 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:25:43.453 -04:00 [INF] TASK 1 retriggered event 2 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:25:43.453 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:25:43.453 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:25:43.453 -04:00 [DBG] ===Task 1:
+	Row 3 of 42:	13443851	|TCNU  3461315	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250664306	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:25:44.463 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:25:44.463 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:25:44.496 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:25:44.496 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:25:45.329 -04:00 [INF] TASK 5 retriggered event 2 of 50 under subscription DHLDAN 047
+2025-07-14 10:25:45.330 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:25:45.330 -04:00 [DBG] ===Task 5:
+	Row 3 of 50:	10316284	|GCXU  2412611	|07/16/2025	|2:30 AM	|VDEP	|LKCMB	|OPT	|NONE	|I	| 	|DHLDAN 047
+2025-07-14 10:25:45.330 -04:00 [DBG] 	TASK 6 has the mutex (currently searching)
+2025-07-14 10:25:46.343 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:25:46.343 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:25:46.373 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:25:46.373 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:25:46.898 -04:00 [INF] TASK 6: Searching incomplete events under subscription LOVESA 4
+2025-07-14 10:25:47.199 -04:00 [INF] Found 0 events under subscription LOVESA 4
+2025-07-14 10:25:47.199 -04:00 [DBG] 	TASK 6 released the mutex (finished SEARCHing)
+2025-07-14 10:25:47.199 -04:00 [INF] Finished searching incomplete events for LOVESA 4 in 00:10.07
+2025-07-14 10:25:47.199 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:25:47.199 -04:00 [INF] TASK 2 found no valid containers in subscription KONTOO 4
+2025-07-14 10:25:47.199 -04:00 [INF] 	TASK 6: Searched and retriggered 0 events in 00:10.07
+2025-07-14 10:25:47.199 -04:00 [DBG] FISMacro using screeen ID 2097256099 now searching incomplete events from subscription MASTER 651...
+2025-07-14 10:25:47.199 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:25:47.199 -04:00 [INF] 	TASK 2: Searched and retriggered 50 events in 00:26.95
+2025-07-14 10:25:47.199 -04:00 [DBG] 	TASK 3 has the mutex (currently SENDing)
+2025-07-14 10:25:47.199 -04:00 [DBG]  ====__ TASK 6: instance 2097256099 requesting mutex to run SEARCH __====
+2025-07-14 10:25:47.214 -04:00 [DBG] FISMacro using screeen ID 2110322298 now searching incomplete events from subscription TARGET 113...
+2025-07-14 10:25:47.214 -04:00 [DBG]  ====__ TASK 2: instance 2110322298 requesting mutex to run SEARCH __====
+2025-07-14 10:25:48.439 -04:00 [INF] TASK 3 retriggered event 13 of 50 under subscription DHLDAN 47
+2025-07-14 10:25:48.441 -04:00 [DBG] 	TASK 3 released the mutex (finished SENDing)
+2025-07-14 10:25:48.441 -04:00 [DBG] ===Task 3:
+	Row 14 of 50:	10434776	|HLXU  1275302	|07/10/2025	|4:36 PM	|VDEP	|INNSA	|OPL	|HLCUBO12506BWMY5	|I	| 	|DHLDAN 47
+2025-07-14 10:25:48.441 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:25:49.455 -04:00 [DBG] TASK 3 finished waiting
+2025-07-14 10:25:49.455 -04:00 [DBG] TASK 3 looking for a valid container
+2025-07-14 10:25:49.614 -04:00 [DBG] TASK 3 found a valid container!
+2025-07-14 10:25:49.614 -04:00 [DBG]  __== TASK 3: instance 802838850 requesting mutex to run SEND ==__
+2025-07-14 10:25:50.584 -04:00 [INF] TASK 4 retriggered event 2 of 50 under subscription HOMEDE 156
+2025-07-14 10:25:50.589 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:25:50.589 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:25:50.589 -04:00 [DBG] ===Task 4:
+	Row 3 of 50:	10860633	|CAIU  9418837	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610140	|I	| 	|HOMEDE 156
+2025-07-14 10:25:51.596 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:25:51.596 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:25:52.916 -04:00 [INF] TASK 0 retriggered event 20 of 50 under subscription 3MCOMP 11
+2025-07-14 10:25:52.918 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:25:52.918 -04:00 [DBG] ===Task 0:
+	Row 21 of 50:	21452002	|DAYU  6118560	|07/09/2025	|12:54 PM	|VDEP	|BEANR	|SRT	|HLCUANR250630770	|I	| 	|3MCOMP 11
+2025-07-14 10:25:52.918 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:25:53.923 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:25:53.923 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:25:54.108 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:25:54.109 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:25:55.442 -04:00 [INF] TASK 1 retriggered event 3 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:25:55.443 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:25:55.443 -04:00 [DBG] ===Task 1:
+	Row 4 of 42:	13742211	|HLBU  1962277	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250664160	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:25:55.444 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:25:56.441 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:25:56.441 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:25:56.457 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:25:56.457 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:25:56.472 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:25:56.472 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:25:57.577 -04:00 [INF] TASK 5 retriggered event 3 of 50 under subscription DHLDAN 047
+2025-07-14 10:25:57.585 -04:00 [DBG] 	TASK 6 has the mutex (currently searching)
+2025-07-14 10:25:57.585 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:25:57.585 -04:00 [DBG] ===Task 5:
+	Row 4 of 50:	10316284	|HLBU  3495000	|07/11/2025	|2:00 AM	|VDEP	|ESVGO	|OPT	|HLCUSCL250570728	|I	| 	|DHLDAN 047
+2025-07-14 10:25:58.594 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:25:58.594 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:25:58.611 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:25:58.611 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:25:59.151 -04:00 [INF] TASK 6: Searching incomplete events under subscription MASTER 651
+2025-07-14 10:25:59.560 -04:00 [INF] Found 38 events under subscription MASTER 651
+2025-07-14 10:25:59.560 -04:00 [DBG] 	TASK 6 released the mutex (finished SEARCHing)
+2025-07-14 10:25:59.560 -04:00 [INF] Finished searching incomplete events for MASTER 651 in 00:12.36
+2025-07-14 10:25:59.560 -04:00 [DBG] 	TASK 2 has the mutex (currently searching)
+2025-07-14 10:25:59.560 -04:00 [DBG] TASK 6 looking for a valid container
+2025-07-14 10:26:00.394 -04:00 [INF] TASK 2: Searching incomplete events under subscription TARGET 113
+2025-07-14 10:26:00.910 -04:00 [INF] Found 36 events under subscription TARGET 113
+2025-07-14 10:26:00.910 -04:00 [DBG] 	TASK 2 released the mutex (finished SEARCHing)
+2025-07-14 10:26:00.910 -04:00 [INF] Finished searching incomplete events for TARGET 113 in 00:13.70
+2025-07-14 10:26:00.910 -04:00 [DBG] 	TASK 3 has the mutex (currently SENDing)
+2025-07-14 10:26:00.910 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:26:01.018 -04:00 [DBG] TASK 6 found a valid container!
+2025-07-14 10:26:01.018 -04:00 [DBG]  __== TASK 6: instance 2097256099 requesting mutex to run SEND ==__
+2025-07-14 10:26:01.184 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:26:01.184 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:26:01.979 -04:00 [INF] TASK 3 retriggered event 18 of 50 under subscription DHLDAN 47
+2025-07-14 10:26:01.985 -04:00 [DBG] 	TASK 3 released the mutex (finished SENDing)
+2025-07-14 10:26:01.985 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:26:01.986 -04:00 [DBG] ===Task 3:
+	Row 19 of 50:	10738932	|CAAU  2293503	|07/12/2025	|11:24 AM	|VDEP	|GBLGP	|OPL	|HLCULIV250700673	|I	| 	|DHLDAN 47
+2025-07-14 10:26:02.989 -04:00 [DBG] TASK 3 finished waiting
+2025-07-14 10:26:02.989 -04:00 [DBG] TASK 3 looking for a valid container
+2025-07-14 10:26:03.130 -04:00 [DBG] TASK 3 found a valid container!
+2025-07-14 10:26:03.130 -04:00 [DBG]  __== TASK 3: instance 802838850 requesting mutex to run SEND ==__
+2025-07-14 10:26:03.901 -04:00 [INF] TASK 4 retriggered event 3 of 50 under subscription HOMEDE 156
+2025-07-14 10:26:03.901 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:26:03.901 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:26:03.901 -04:00 [DBG] ===Task 4:
+	Row 4 of 50:	10860633	|FANU  1498511	|07/13/2025	|11:00 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610140	|I	| 	|HOMEDE 156
+2025-07-14 10:26:04.951 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:26:04.951 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:26:05.008 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:26:05.009 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:26:06.197 -04:00 [INF] TASK 0 retriggered event 35 of 50 under subscription 3MCOMP 11
+2025-07-14 10:26:06.197 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:26:06.197 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:26:06.197 -04:00 [DBG] ===Task 0:
+	Row 36 of 50:	29149289	|HAMU  2317684	|07/12/2025	|8:12 AM	|VDEP	|CNSHA	|SRT	|HLCUSHA2506FTGB3	|I	| 	|3MCOMP 11
+2025-07-14 10:26:07.211 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:26:07.211 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:26:09.551 -04:00 [INF] TASK 1 retriggered event 4 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:26:09.571 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:26:09.571 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:26:09.571 -04:00 [DBG] ===Task 1:
+	Row 5 of 42:	20115075	|TEMU  7297600	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250664054	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:26:10.602 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:26:10.602 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:26:11.302 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:26:11.302 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:26:11.302 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:26:11.302 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:26:12.445 -04:00 [INF] TASK 5 retriggered event 4 of 50 under subscription DHLDAN 047
+2025-07-14 10:26:12.445 -04:00 [DBG] 	TASK 6 has the mutex (currently SENDing)
+2025-07-14 10:26:12.445 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:26:12.445 -04:00 [DBG] ===Task 5:
+	Row 5 of 50:	10316284	|HLBU  3520989	|07/11/2025	|2:00 AM	|VDEP	|ESVGO	|OPT	|HLCUSCL250570728	|I	| 	|DHLDAN 047
+2025-07-14 10:26:13.475 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:26:13.475 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:26:13.491 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:26:13.491 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:26:14.805 -04:00 [INF] TASK 6 retriggered event 23 of 38 under subscription MASTER 651
+2025-07-14 10:26:14.805 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:26:14.805 -04:00 [DBG] 	TASK 6 released the mutex (finished SENDing)
+2025-07-14 10:26:14.805 -04:00 [DBG] ===Task 6:
+	Row 24 of 38:	26814983	|HLBU  2213566	|07/11/2025	|11:00 AM	|DEPD	|VNUIH	|SRT	|NONE	|I	| 	|MASTER 651
+2025-07-14 10:26:15.810 -04:00 [DBG] TASK 6 finished waiting
+2025-07-14 10:26:15.810 -04:00 [DBG] TASK 6 looking for a valid container
+2025-07-14 10:26:16.111 -04:00 [DBG]  __== TASK 6: instance 2097256099 requesting mutex to run SEND ==__
+2025-07-14 10:26:16.791 -04:00 [INF] TASK 2 retriggered event 9 of 36 under subscription TARGET 113
+2025-07-14 10:26:16.793 -04:00 [DBG] 	TASK 3 has the mutex (currently SENDing)
+2025-07-14 10:26:16.793 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:26:16.794 -04:00 [DBG] ===Task 2:
+	Row 10 of 36:	20594471	|HAMU  1807389	|07/17/2025	|6:30 AM	|DEPD	|INMUN	|OPL	|NONE	|I	|Y	|TARGET 113
+2025-07-14 10:26:17.804 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:26:17.804 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:26:17.819 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:26:17.819 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:26:19.318 -04:00 [INF] TASK 3 retriggered event 25 of 50 under subscription DHLDAN 47
+2025-07-14 10:26:19.318 -04:00 [DBG] 	TASK 3 released the mutex (finished SENDing)
+2025-07-14 10:26:19.318 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:26:19.318 -04:00 [DBG] ===Task 3:
+	Row 26 of 50:	10762713	|HLBU  3818150	|07/09/2025	|4:00 PM	|VDEP	|NLRTM	|OPT	|HLCUDUR250529353	|I	| 	|DHLDAN 47
+2025-07-14 10:26:20.324 -04:00 [DBG] TASK 3 finished waiting
+2025-07-14 10:26:20.324 -04:00 [DBG] TASK 3 looking for a valid container
+2025-07-14 10:26:21.459 -04:00 [INF] TASK 4 retriggered event 4 of 50 under subscription HOMEDE 156
+2025-07-14 10:26:21.467 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:26:21.467 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:26:21.467 -04:00 [DBG] ===Task 4:
+	Row 5 of 50:	10860633	|GCXU  6168822	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610140	|I	| 	|HOMEDE 156
+2025-07-14 10:26:22.472 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:26:22.472 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:26:22.539 -04:00 [DBG] TASK 3 found a valid container!
+2025-07-14 10:26:22.539 -04:00 [DBG]  __== TASK 3: instance 802838850 requesting mutex to run SEND ==__
+2025-07-14 10:26:22.570 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:26:22.570 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:26:23.949 -04:00 [INF] TASK 0 retriggered event 39 of 50 under subscription 3MCOMP 11
+2025-07-14 10:26:23.949 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:26:23.949 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:26:23.949 -04:00 [DBG] ===Task 0:
+	Row 40 of 50:	31207484	|HLBU  1464865	|07/13/2025	|4:24 AM	|VDEP	|CNSHA	|SRT	|HLCUSHA2506FTGK1	|I	| 	|3MCOMP 11
+2025-07-14 10:26:24.960 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:26:24.960 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:26:25.207 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:26:25.207 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:26:27.259 -04:00 [INF] TASK 1 retriggered event 8 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:26:27.259 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:26:27.259 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:26:27.259 -04:00 [DBG] ===Task 1:
+	Row 9 of 42:	15076354	|HAMU  3587940	|07/12/2025	|3:30 AM	|DEPD	|CNSHA	|OPL	|HLCUDE1250659665	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:26:28.265 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:26:28.265 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:26:28.417 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:26:28.417 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:26:29.345 -04:00 [INF] TASK 5 retriggered event 5 of 50 under subscription DHLDAN 047
+2025-07-14 10:26:29.351 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:26:29.351 -04:00 [DBG] ===Task 5:
+	Row 6 of 50:	10434776	|HLXU  1275302	|07/10/2025	|4:36 PM	|VDEP	|INNSA	|OPL	|HLCUBO12506BWMY5	|I	| 	|DHLDAN 047
+2025-07-14 10:26:29.351 -04:00 [DBG] 	TASK 6 has the mutex (currently SENDing)
+2025-07-14 10:26:29.351 -04:00 [INF] TASK 6 found no valid containers in subscription MASTER 651
+2025-07-14 10:26:29.351 -04:00 [DBG] 	TASK 6 released the mutex (finished SENDing)
+2025-07-14 10:26:29.351 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:26:29.351 -04:00 [INF] 	TASK 6: Searched and retriggered 38 events in 00:42.14
+2025-07-14 10:26:29.365 -04:00 [DBG] FISMacro using screeen ID 2097256099 now searching incomplete events from subscription TARGET 113 GTN...
+2025-07-14 10:26:29.365 -04:00 [DBG]  ====__ TASK 6: instance 2097256099 requesting mutex to run SEARCH __====
+2025-07-14 10:26:30.362 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:26:30.362 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:26:30.691 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:26:30.691 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:26:31.703 -04:00 [INF] TASK 2 retriggered event 10 of 36 under subscription TARGET 113
+2025-07-14 10:26:31.703 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:26:31.703 -04:00 [DBG] 	TASK 3 has the mutex (currently SENDing)
+2025-07-14 10:26:31.703 -04:00 [DBG] ===Task 2:
+	Row 11 of 36:	20594471	|HAMU  2689911	|07/17/2025	|6:30 AM	|DEPD	|INMUN	|OPL	|NONE	|I	|Y	|TARGET 113
+2025-07-14 10:26:32.721 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:26:32.721 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:26:32.834 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:26:32.834 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:26:33.776 -04:00 [INF] TASK 3 retriggered event 44 of 50 under subscription DHLDAN 47
+2025-07-14 10:26:33.776 -04:00 [DBG] 	TASK 3 released the mutex (finished SENDing)
+2025-07-14 10:26:33.776 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:26:33.776 -04:00 [DBG] ===Task 3:
+	Row 45 of 50:	11053009	|DHDU  1970580	|07/11/2025	|11:06 AM	|VDEP	|CAMTR	|END	|HLCUTOR250708454	|I	| 	|DHLDAN 47
+2025-07-14 10:26:34.786 -04:00 [DBG] TASK 3 finished waiting
+2025-07-14 10:26:34.786 -04:00 [DBG] TASK 3 looking for a valid container
+2025-07-14 10:26:34.871 -04:00 [DBG] TASK 3 found a valid container!
+2025-07-14 10:26:34.871 -04:00 [DBG]  __== TASK 3: instance 802838850 requesting mutex to run SEND ==__
+2025-07-14 10:26:36.094 -04:00 [INF] TASK 4 retriggered event 5 of 50 under subscription HOMEDE 156
+2025-07-14 10:26:36.094 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:26:36.094 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:26:36.094 -04:00 [DBG] ===Task 4:
+	Row 6 of 50:	10860633	|HLBU  3520989	|07/11/2025	|2:00 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610140	|I	| 	|HOMEDE 156
+2025-07-14 10:26:37.105 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:26:37.105 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:26:37.294 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:26:37.294 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:26:38.233 -04:00 [INF] TASK 0 retriggered event 40 of 50 under subscription 3MCOMP 11
+2025-07-14 10:26:38.233 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:26:38.233 -04:00 [DBG] ===Task 0:
+	Row 41 of 50:	31207484	|TCKU  4721080	|07/13/2025	|4:24 AM	|VDEP	|CNSHA	|SRT	|HLCUSHA2506FTGK1	|I	| 	|3MCOMP 11
+2025-07-14 10:26:38.233 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:26:39.244 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:26:39.244 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:26:40.126 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:26:40.885 -04:00 [INF] TASK 1 retriggered event 9 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:26:40.885 -04:00 [DBG] 	TASK 6 has the mutex (currently searching)
+2025-07-14 10:26:40.885 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:26:40.885 -04:00 [DBG] ===Task 1:
+	Row 10 of 42:	23140572	|HLBU  3313087	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250659665	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:26:41.899 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:26:41.899 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:26:41.933 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:26:41.933 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:26:42.610 -04:00 [INF] TASK 6: Searching incomplete events under subscription TARGET 113 GTN
+2025-07-14 10:26:43.132 -04:00 [INF] Found 20 events under subscription TARGET 113 GTN
+2025-07-14 10:26:43.132 -04:00 [DBG] 	TASK 6 released the mutex (finished SEARCHing)
+2025-07-14 10:26:43.132 -04:00 [INF] Finished searching incomplete events for TARGET 113 GTN in 00:13.77
+2025-07-14 10:26:43.132 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:26:43.132 -04:00 [DBG] TASK 6 looking for a valid container
+2025-07-14 10:26:44.534 -04:00 [INF] TASK 5 retriggered event 6 of 50 under subscription DHLDAN 047
+2025-07-14 10:26:44.534 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:26:44.534 -04:00 [DBG] ===Task 5:
+	Row 7 of 50:	10738932	|CAAU  2293503	|07/12/2025	|11:24 AM	|VDEP	|GBLGP	|OPL	|HLCULIV250700673	|I	| 	|DHLDAN 047
+2025-07-14 10:26:44.534 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:26:45.540 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:26:45.540 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:26:45.631 -04:00 [DBG] TASK 6 found a valid container!
+2025-07-14 10:26:45.632 -04:00 [DBG]  __== TASK 6: instance 2097256099 requesting mutex to run SEND ==__
+2025-07-14 10:26:45.648 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:26:45.648 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:26:46.871 -04:00 [INF] TASK 2 retriggered event 12 of 36 under subscription TARGET 113
+2025-07-14 10:26:46.877 -04:00 [DBG] 	TASK 3 has the mutex (currently SENDing)
+2025-07-14 10:26:46.877 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:26:46.879 -04:00 [DBG] ===Task 2:
+	Row 13 of 36:	26483192	|HLBU  1087400	|07/10/2025	|4:30 AM	|VDEP	|PKBQM	|SRT	|NONE	|I	| 	|TARGET 113
+2025-07-14 10:26:47.889 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:26:47.889 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:26:48.491 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:26:48.491 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:26:49.260 -04:00 [INF] TASK 3 retriggered event 48 of 50 under subscription DHLDAN 47
+2025-07-14 10:26:49.283 -04:00 [DBG] 	TASK 3 released the mutex (finished SENDing)
+2025-07-14 10:26:49.283 -04:00 [DBG] ===Task 3:
+	Row 49 of 50:	11196443	|HAMU  3295126	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605856	|I	| 	|DHLDAN 47
+2025-07-14 10:26:49.283 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:26:50.307 -04:00 [DBG] TASK 3 finished waiting
+2025-07-14 10:26:50.307 -04:00 [DBG] TASK 3 looking for a valid container
+2025-07-14 10:26:50.323 -04:00 [DBG] TASK 3 found a valid container!
+2025-07-14 10:26:50.323 -04:00 [DBG]  __== TASK 3: instance 802838850 requesting mutex to run SEND ==__
+2025-07-14 10:26:51.863 -04:00 [INF] TASK 4 retriggered event 6 of 50 under subscription HOMEDE 156
+2025-07-14 10:26:51.864 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:26:51.864 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:26:51.865 -04:00 [DBG] ===Task 4:
+	Row 7 of 50:	10860633	|HAMU  3536202	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610140	|I	| 	|HOMEDE 156
+2025-07-14 10:26:51.864 -04:00 [INF] TASK 0 found no valid containers in subscription 3MCOMP 11
+2025-07-14 10:26:51.865 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:26:51.865 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:26:51.866 -04:00 [INF] 	TASK 0: Searched and retriggered 50 events in 01:35.10
+2025-07-14 10:26:51.869 -04:00 [DBG] FISMacro using screeen ID 381056734 now searching incomplete events from subscription WALMAR 64...
+2025-07-14 10:26:51.869 -04:00 [DBG]  ====__ TASK 0: instance 381056734 requesting mutex to run SEARCH __====
+2025-07-14 10:26:52.873 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:26:52.873 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:26:52.973 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:26:52.973 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:26:54.205 -04:00 [INF] TASK 1 retriggered event 10 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:26:54.207 -04:00 [DBG] 	TASK 6 has the mutex (currently SENDing)
+2025-07-14 10:26:54.207 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:26:54.208 -04:00 [DBG] ===Task 1:
+	Row 11 of 42:	24932139	|HLBU  1282270	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250664340	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:26:55.225 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:26:55.225 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:26:55.288 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:26:55.288 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:26:56.356 -04:00 [INF] TASK 6 retriggered event 18 of 20 under subscription TARGET 113 GTN
+2025-07-14 10:26:56.356 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:26:56.356 -04:00 [DBG] 	TASK 6 released the mutex (finished SENDing)
+2025-07-14 10:26:56.356 -04:00 [DBG] ===Task 6:
+	Row 19 of 20:	93575480	|HAMU  2828719	|07/13/2025	|11:00 AM	|ARRD	|USCHS	|END	|NONE	|I	| 	|TARGET 113 GTN
+2025-07-14 10:26:57.362 -04:00 [DBG] TASK 6 finished waiting
+2025-07-14 10:26:57.362 -04:00 [DBG] TASK 6 looking for a valid container
+2025-07-14 10:26:57.647 -04:00 [DBG]  __== TASK 6: instance 2097256099 requesting mutex to run SEND ==__
+2025-07-14 10:26:59.019 -04:00 [INF] TASK 5 retriggered event 8 of 50 under subscription DHLDAN 047
+2025-07-14 10:26:59.019 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:26:59.019 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:26:59.019 -04:00 [DBG] ===Task 5:
+	Row 9 of 50:	11053009	|DHDU  1970580	|07/11/2025	|11:06 AM	|VDEP	|CAMTR	|OPL	|HLCUTOR250708454	|I	| 	|DHLDAN 047
+2025-07-14 10:27:00.030 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:27:00.031 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:27:00.673 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:27:00.673 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:27:01.559 -04:00 [INF] TASK 2 retriggered event 18 of 36 under subscription TARGET 113
+2025-07-14 10:27:01.563 -04:00 [DBG] 	TASK 3 has the mutex (currently SENDing)
+2025-07-14 10:27:01.563 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:27:01.563 -04:00 [DBG] ===Task 2:
+	Row 19 of 36:	38877712	|CAAU  6369783	|07/13/2025	|2:30 PM	|DEPD	|INNSA	|SRT	|NONE	|I	|Y	|TARGET 113
+2025-07-14 10:27:02.579 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:27:02.579 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:27:02.679 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:27:02.679 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:27:03.628 -04:00 [INF] TASK 3 retriggered event 49 of 50 under subscription DHLDAN 47
+2025-07-14 10:27:03.646 -04:00 [DBG] 	TASK 3 released the mutex (finished SENDing)
+2025-07-14 10:27:03.646 -04:00 [DBG] ===Task 3:
+	Row 50 of 50:	11196443	|HAMU  4572098	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605856	|I	| 	|DHLDAN 47
+2025-07-14 10:27:03.648 -04:00 [DBG] 	TASK 0 has the mutex (currently searching)
+2025-07-14 10:27:04.663 -04:00 [DBG] TASK 3 finished waiting
+2025-07-14 10:27:04.663 -04:00 [DBG] TASK 3 looking for a valid container
+2025-07-14 10:27:04.747 -04:00 [DBG] TASK 3 found a valid container!
+2025-07-14 10:27:04.747 -04:00 [DBG]  __== TASK 3: instance 802838850 requesting mutex to run SEND ==__
+2025-07-14 10:27:05.527 -04:00 [INF] TASK 0: Searching incomplete events under subscription WALMAR 64
+2025-07-14 10:27:06.166 -04:00 [INF] Found 5 events under subscription WALMAR 64
+2025-07-14 10:27:06.166 -04:00 [DBG] 	TASK 0 released the mutex (finished SEARCHing)
+2025-07-14 10:27:06.166 -04:00 [INF] Finished searching incomplete events for WALMAR 64 in 00:14.31
+2025-07-14 10:27:06.166 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:27:06.166 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:27:06.198 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:27:06.198 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:27:07.225 -04:00 [INF] TASK 4 retriggered event 7 of 50 under subscription HOMEDE 156
+2025-07-14 10:27:07.235 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:27:07.235 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:27:07.235 -04:00 [DBG] ===Task 4:
+	Row 8 of 50:	10860633	|HLBU  1288154	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610140	|I	| 	|HOMEDE 156
+2025-07-14 10:27:08.241 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:27:08.241 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:27:08.256 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:27:08.256 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:27:09.318 -04:00 [INF] TASK 1 retriggered event 11 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:27:09.334 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:27:09.334 -04:00 [DBG] ===Task 1:
+	Row 12 of 42:	25128571	|UACU  5702590	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250664087	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:27:09.334 -04:00 [DBG] 	TASK 6 has the mutex (currently SENDing)
+2025-07-14 10:27:09.334 -04:00 [INF] TASK 6 found no valid containers in subscription TARGET 113 GTN
+2025-07-14 10:27:09.334 -04:00 [DBG] 	TASK 6 released the mutex (finished SENDing)
+2025-07-14 10:27:09.334 -04:00 [INF] 	TASK 6: Searched and retriggered 20 events in 00:39.97
+2025-07-14 10:27:09.334 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:27:09.334 -04:00 [INF] 
+==========
+Task 6 has finished all its events
+==========
+2025-07-14 10:27:10.349 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:27:10.349 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:27:10.365 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:27:10.365 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:27:11.542 -04:00 [INF] TASK 5 retriggered event 9 of 50 under subscription DHLDAN 047
+2025-07-14 10:27:11.545 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:27:11.545 -04:00 [DBG] ===Task 5:
+	Row 10 of 50:	11196443	|HAMU  3295126	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605856	|I	| 	|DHLDAN 047
+2025-07-14 10:27:11.545 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:27:12.550 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:27:12.550 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:27:12.587 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:27:12.587 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:27:13.430 -04:00 [INF] TASK 2 retriggered event 20 of 36 under subscription TARGET 113
+2025-07-14 10:27:13.436 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:27:13.436 -04:00 [DBG] 	TASK 3 has the mutex (currently SENDing)
+2025-07-14 10:27:13.436 -04:00 [DBG] ===Task 2:
+	Row 21 of 36:	63329303	|BEAU  4390199	|07/13/2025	|11:00 AM	|ARRD	|USCHS	|END	|NONE	|I	| 	|TARGET 113
+2025-07-14 10:27:14.438 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:27:14.438 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:27:14.555 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:27:14.555 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:27:15.965 -04:00 [INF] TASK 3 retriggered event 50 of 50 under subscription DHLDAN 47
+2025-07-14 10:27:15.965 -04:00 [DBG] 	TASK 3 released the mutex (finished SENDing)
+2025-07-14 10:27:15.965 -04:00 [DBG] ===Task 3:
+	Row 51 of 50:	11196443	|HAMU  4572117	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605856	|I	| 	|DHLDAN 47
+2025-07-14 10:27:15.965 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:27:16.987 -04:00 [DBG] TASK 3 finished waiting
+2025-07-14 10:27:16.987 -04:00 [INF] 	TASK 3: Searched and retriggered 50 events in 02:00.21
+2025-07-14 10:27:16.987 -04:00 [INF] 
+==========
+Task 3 has finished all its events
+==========
+2025-07-14 10:27:17.845 -04:00 [INF] TASK 0 retriggered event 1 of 5 under subscription WALMAR 64
+2025-07-14 10:27:17.850 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:27:17.850 -04:00 [DBG] ===Task 0:
+	Row 2 of 5:	28610422	|HAMU  4632509	|07/09/2025	|8:41 AM	|GOFU	|VNSGN	|SRT	|HLCUSGN2506AQSR6	|I	| 	|WALMAR 64
+2025-07-14 10:27:17.850 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:27:18.863 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:27:18.863 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:27:18.894 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:27:18.894 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:27:19.866 -04:00 [INF] TASK 4 retriggered event 8 of 50 under subscription HOMEDE 156
+2025-07-14 10:27:19.866 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:27:19.866 -04:00 [DBG] ===Task 4:
+	Row 9 of 50:	10860633	|HLBU  1993914	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610140	|I	| 	|HOMEDE 156
+2025-07-14 10:27:19.866 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:27:20.889 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:27:20.889 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:27:20.926 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:27:20.926 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:27:22.275 -04:00 [INF] TASK 1 retriggered event 12 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:27:22.275 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:27:22.275 -04:00 [DBG] ===Task 1:
+	Row 13 of 42:	26603379	|HLBU  1837906	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250664244	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:27:22.275 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:27:23.290 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:27:23.290 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:27:23.290 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:27:23.290 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:27:23.993 -04:00 [INF] TASK 5 retriggered event 10 of 50 under subscription DHLDAN 047
+2025-07-14 10:27:23.993 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:27:23.993 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:27:23.993 -04:00 [DBG] ===Task 5:
+	Row 11 of 50:	11196443	|HAMU  4572098	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605856	|I	| 	|DHLDAN 047
+2025-07-14 10:27:25.011 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:27:25.011 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:27:25.421 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:27:25.421 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:27:26.327 -04:00 [INF] TASK 2 retriggered event 21 of 36 under subscription TARGET 113
+2025-07-14 10:27:26.330 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:27:26.329 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:27:26.330 -04:00 [DBG] ===Task 2:
+	Row 22 of 36:	63329303	|FDCU  0238350	|07/13/2025	|11:00 AM	|ARRD	|USCHS	|END	|NONE	|I	| 	|TARGET 113
+2025-07-14 10:27:27.350 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:27:27.350 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:27:27.373 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:27:27.373 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:27:28.047 -04:00 [INF] TASK 0 retriggered event 2 of 5 under subscription WALMAR 64
+2025-07-14 10:27:28.049 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:27:28.049 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:27:28.049 -04:00 [DBG] ===Task 0:
+	Row 3 of 5:	28610422	|HAMU  4632690	|07/09/2025	|10:10 AM	|GOFU	|VNSGN	|SRT	|HLCUSGN2506AQSR6	|I	| 	|WALMAR 64
+2025-07-14 10:27:29.056 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:27:29.056 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:27:29.071 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:27:29.071 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:27:29.850 -04:00 [INF] TASK 4 retriggered event 9 of 50 under subscription HOMEDE 156
+2025-07-14 10:27:29.850 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:27:29.850 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:27:29.850 -04:00 [DBG] ===Task 4:
+	Row 10 of 50:	10860633	|UASU  1037662	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610140	|I	| 	|HOMEDE 156
+2025-07-14 10:27:30.867 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:27:30.867 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:27:30.867 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:27:30.867 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:27:31.711 -04:00 [INF] TASK 1 retriggered event 13 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:27:31.711 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:27:31.711 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:27:31.711 -04:00 [DBG] ===Task 1:
+	Row 14 of 42:	29096632	|HLXU  8027150	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250660265	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:27:32.745 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:27:32.745 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:27:32.760 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:27:32.760 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:27:33.392 -04:00 [INF] TASK 5 retriggered event 11 of 50 under subscription DHLDAN 047
+2025-07-14 10:27:33.395 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:27:33.395 -04:00 [DBG] ===Task 5:
+	Row 12 of 50:	11196443	|HAMU  4572117	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605856	|I	| 	|DHLDAN 047
+2025-07-14 10:27:33.395 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:27:34.403 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:27:34.403 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:27:34.435 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:27:34.435 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:27:35.472 -04:00 [INF] TASK 2 retriggered event 22 of 36 under subscription TARGET 113
+2025-07-14 10:27:35.476 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:27:35.476 -04:00 [DBG] ===Task 2:
+	Row 23 of 36:	63329303	|FFAU  2210631	|07/13/2025	|11:00 AM	|ARRD	|USCHS	|END	|NONE	|I	| 	|TARGET 113
+2025-07-14 10:27:35.476 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:27:36.494 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:27:36.494 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:27:36.541 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:27:36.541 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:27:37.785 -04:00 [INF] TASK 0 retriggered event 3 of 5 under subscription WALMAR 64
+2025-07-14 10:27:37.785 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:27:37.785 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:27:37.785 -04:00 [DBG] ===Task 0:
+	Row 4 of 5:	28610422	|HAMU  4632788	|07/09/2025	|8:47 AM	|GOFU	|VNSGN	|SRT	|HLCUSGN2506AQSR6	|I	| 	|WALMAR 64
+2025-07-14 10:27:38.807 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:27:38.807 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:27:38.838 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:27:38.838 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:27:39.586 -04:00 [INF] TASK 4 retriggered event 10 of 50 under subscription HOMEDE 156
+2025-07-14 10:27:39.591 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:27:39.592 -04:00 [DBG] ===Task 4:
+	Row 11 of 50:	11072022	|HLBU  2716703	|07/13/2025	|2:24 PM	|VDEP	|CNSHK	|OPT	|HLCUSZX2506BWKB1	|I	| 	|HOMEDE 156
+2025-07-14 10:27:39.591 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:27:40.598 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:27:40.598 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:27:40.635 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:27:40.635 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:27:41.604 -04:00 [INF] TASK 1 retriggered event 14 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:27:41.606 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:27:41.606 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:27:41.606 -04:00 [DBG] ===Task 1:
+	Row 15 of 42:	32728868	|BEAU  4717260	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250659621	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:27:42.620 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:27:42.620 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:27:42.752 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:27:42.752 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:27:44.048 -04:00 [INF] TASK 5 retriggered event 12 of 50 under subscription DHLDAN 047
+2025-07-14 10:27:44.048 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:27:44.048 -04:00 [DBG] ===Task 5:
+	Row 13 of 50:	11196443	|HLBU  3393884	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605856	|I	| 	|DHLDAN 047
+2025-07-14 10:27:44.048 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:27:45.060 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:27:45.060 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:27:45.098 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:27:45.098 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:27:46.077 -04:00 [INF] TASK 2 retriggered event 23 of 36 under subscription TARGET 113
+2025-07-14 10:27:46.077 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:27:46.077 -04:00 [DBG] ===Task 2:
+	Row 24 of 36:	63329303	|HLBU  2213566	|07/13/2025	|11:00 AM	|ARRD	|USCHS	|END	|NONE	|I	| 	|TARGET 113
+2025-07-14 10:27:46.077 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:27:47.104 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:27:47.104 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:27:47.119 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:27:47.119 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:27:47.770 -04:00 [INF] TASK 0 retriggered event 4 of 5 under subscription WALMAR 64
+2025-07-14 10:27:47.772 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:27:47.772 -04:00 [DBG] ===Task 0:
+	Row 5 of 5:	70045415	|HAMU  4631230	|07/09/2025	|10:00 AM	|GOFU	|VNSGN	|SRT	|HLCUSGN250680095	|I	| 	|WALMAR 64
+2025-07-14 10:27:47.772 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:27:48.778 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:27:48.778 -04:00 [DBG] TASK 0 looking for a valid container
+2025-07-14 10:27:48.800 -04:00 [DBG] TASK 0 found a valid container!
+2025-07-14 10:27:48.800 -04:00 [DBG]  __== TASK 0: instance 381056734 requesting mutex to run SEND ==__
+2025-07-14 10:27:49.563 -04:00 [INF] TASK 4 retriggered event 11 of 50 under subscription HOMEDE 156
+2025-07-14 10:27:49.563 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:27:49.563 -04:00 [DBG] ===Task 4:
+	Row 12 of 50:	13085836	|TRLU  8616900	|07/10/2025	|3:11 PM	|VDEP	|CNZJG	|SRT	|HLCUNK2250610670	|I	| 	|HOMEDE 156
+2025-07-14 10:27:49.563 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:27:50.587 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:27:50.587 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:27:50.618 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:27:50.618 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:27:51.574 -04:00 [INF] TASK 1 retriggered event 15 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:27:51.574 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:27:51.574 -04:00 [DBG] ===Task 1:
+	Row 16 of 42:	36193405	|TGBU  4428899	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250660857	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:27:51.574 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:27:52.582 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:27:52.582 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:27:52.733 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:27:52.733 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:27:53.634 -04:00 [INF] TASK 5 retriggered event 13 of 50 under subscription DHLDAN 047
+2025-07-14 10:27:53.634 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:27:53.634 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:27:53.634 -04:00 [DBG] ===Task 5:
+	Row 14 of 50:	11196443	|TLLU  5262674	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605856	|I	| 	|DHLDAN 047
+2025-07-14 10:27:54.644 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:27:54.644 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:27:54.682 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:27:54.682 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:27:55.563 -04:00 [INF] TASK 2 retriggered event 24 of 36 under subscription TARGET 113
+2025-07-14 10:27:55.563 -04:00 [DBG] 	TASK 0 has the mutex (currently SENDing)
+2025-07-14 10:27:55.563 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:27:55.579 -04:00 [DBG] ===Task 2:
+	Row 25 of 36:	63329303	|HLXU  8068035	|07/13/2025	|11:00 AM	|ARRD	|USCHS	|END	|NONE	|I	| 	|TARGET 113
+2025-07-14 10:27:56.591 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:27:56.591 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:27:56.591 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:27:56.591 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:27:57.243 -04:00 [INF] TASK 0 retriggered event 5 of 5 under subscription WALMAR 64
+2025-07-14 10:27:57.247 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:27:57.247 -04:00 [DBG] 	TASK 0 released the mutex (finished SENDing)
+2025-07-14 10:27:57.249 -04:00 [DBG] ===Task 0:
+	Row 6 of 5:	70045415	|HAMU  4637310	|07/09/2025	|8:47 AM	|GOFU	|VNSGN	|SRT	|HLCUSGN250680095	|I	| 	|WALMAR 64
+2025-07-14 10:27:58.263 -04:00 [DBG] TASK 0 finished waiting
+2025-07-14 10:27:58.263 -04:00 [INF] 	TASK 0: Searched and retriggered 5 events in 01:06.39
+2025-07-14 10:27:58.263 -04:00 [INF] 
+==========
+Task 0 has finished all its events
+==========
+2025-07-14 10:27:59.324 -04:00 [INF] TASK 4 retriggered event 14 of 50 under subscription HOMEDE 156
+2025-07-14 10:27:59.330 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:27:59.330 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:27:59.330 -04:00 [DBG] ===Task 4:
+	Row 15 of 50:	14210905	|TEMU  7956544	|07/13/2025	|2:24 PM	|VDEP	|CNSHK	|OPT	|HLCUSZX2506BWKA0	|I	| 	|HOMEDE 156
+2025-07-14 10:28:00.334 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:28:00.334 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:28:00.388 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:28:00.388 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:28:01.279 -04:00 [INF] TASK 1 retriggered event 16 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:28:01.279 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:28:01.279 -04:00 [DBG] ===Task 1:
+	Row 17 of 42:	37759103	|HLXU  6549258	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250664372	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:28:01.279 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:28:02.286 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:28:02.286 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:28:02.371 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:28:02.371 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:28:03.144 -04:00 [INF] TASK 5 retriggered event 14 of 50 under subscription DHLDAN 047
+2025-07-14 10:28:03.146 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:28:03.146 -04:00 [DBG] ===Task 5:
+	Row 15 of 50:	11220476	|FFAU  2209369	|07/11/2025	|10:06 PM	|VDEP	|SGSIN	|OPT	|HLCUGOA2505ATXL3	|I	| 	|DHLDAN 047
+2025-07-14 10:28:03.146 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:28:04.151 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:28:04.151 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:28:04.151 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:28:04.167 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:28:05.260 -04:00 [INF] TASK 2 retriggered event 25 of 36 under subscription TARGET 113
+2025-07-14 10:28:05.260 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:28:05.260 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:28:05.260 -04:00 [DBG] ===Task 2:
+	Row 26 of 36:	63329303	|UACU  5697873	|07/13/2025	|11:00 AM	|ARRD	|USCHS	|END	|NONE	|I	| 	|TARGET 113
+2025-07-14 10:28:06.267 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:28:06.267 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:28:07.279 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:28:07.279 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:28:08.096 -04:00 [INF] TASK 4 retriggered event 16 of 50 under subscription HOMEDE 156
+2025-07-14 10:28:08.112 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:28:08.112 -04:00 [DBG] ===Task 4:
+	Row 17 of 50:	16760445	|TLLU  5262170	|07/13/2025	|2:24 PM	|VDEP	|CNSHK	|OPT	|HLCUSZX2506BWKO4	|I	| 	|HOMEDE 156
+2025-07-14 10:28:08.112 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:28:09.124 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:28:09.124 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:28:10.291 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:28:10.291 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:28:11.206 -04:00 [INF] TASK 1 retriggered event 17 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:28:11.211 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:28:11.211 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:28:11.211 -04:00 [DBG] ===Task 1:
+	Row 18 of 42:	38202635	|HAMU  1472665	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250658578	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:28:12.215 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:28:12.215 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:28:12.227 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:28:12.227 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:28:13.105 -04:00 [INF] TASK 5 retriggered event 15 of 50 under subscription DHLDAN 047
+2025-07-14 10:28:13.115 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:28:13.115 -04:00 [DBG] ===Task 5:
+	Row 16 of 50:	11326591	|FANU  3456686	|07/12/2025	|5:54 AM	|VDEP	|CNNGB	|OPT	|HLCUTS12506AXVW2	|I	| 	|DHLDAN 047
+2025-07-14 10:28:13.116 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:28:14.148 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:28:14.148 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:28:15.168 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:28:15.168 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:28:16.598 -04:00 [INF] TASK 2 retriggered event 26 of 36 under subscription TARGET 113
+2025-07-14 10:28:16.600 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:28:16.600 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:28:16.600 -04:00 [DBG] ===Task 2:
+	Row 27 of 36:	63329303	|UACU  5797949	|07/13/2025	|11:00 AM	|ARRD	|USCHS	|END	|NONE	|I	| 	|TARGET 113
+2025-07-14 10:28:17.612 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:28:17.612 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:28:17.828 -04:00 [DBG] TASK 2 found a valid container!
+2025-07-14 10:28:17.828 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:28:18.764 -04:00 [INF] TASK 4 retriggered event 17 of 50 under subscription HOMEDE 156
+2025-07-14 10:28:18.765 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:28:18.765 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:28:18.766 -04:00 [DBG] ===Task 4:
+	Row 18 of 50:	17396085	|HAMU  3441323	|07/13/2025	|2:24 PM	|VDEP	|CNSHK	|OPT	|HLCUSZX2505CSIG0	|I	| 	|HOMEDE 156
+2025-07-14 10:28:19.786 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:28:19.786 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:28:19.817 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:28:19.817 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:28:20.705 -04:00 [INF] TASK 1 retriggered event 18 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:28:20.714 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:28:20.714 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:28:20.714 -04:00 [DBG] ===Task 1:
+	Row 19 of 42:	38202635	|HAMU  2414914	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250658578	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:28:21.721 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:28:21.721 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:28:21.821 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:28:21.821 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:28:22.862 -04:00 [INF] TASK 5 retriggered event 16 of 50 under subscription DHLDAN 047
+2025-07-14 10:28:22.862 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:28:22.862 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:28:22.862 -04:00 [DBG] ===Task 5:
+	Row 17 of 50:	11430611	|HAMU  4507370	|07/12/2025	|5:54 AM	|VDEP	|CNNGB	|SRT	|HLCUNG12506DQQL3	|I	| 	|DHLDAN 047
+2025-07-14 10:28:23.882 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:28:23.882 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:28:23.951 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:28:23.951 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:28:24.995 -04:00 [INF] TASK 2 retriggered event 27 of 36 under subscription TARGET 113
+2025-07-14 10:28:24.995 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:28:25.002 -04:00 [DBG] ===Task 2:
+	Row 28 of 36:	63329303	|UACU  6041133	|07/13/2025	|11:00 AM	|ARRD	|USCHS	|END	|NONE	|I	| 	|TARGET 113
+2025-07-14 10:28:24.995 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:28:26.014 -04:00 [DBG] TASK 2 finished waiting
+2025-07-14 10:28:26.014 -04:00 [DBG] TASK 2 looking for a valid container
+2025-07-14 10:28:26.130 -04:00 [DBG]  __== TASK 2: instance 2110322298 requesting mutex to run SEND ==__
+2025-07-14 10:28:26.865 -04:00 [INF] TASK 4 retriggered event 18 of 50 under subscription HOMEDE 156
+2025-07-14 10:28:26.875 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:28:26.875 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:28:26.875 -04:00 [DBG] ===Task 4:
+	Row 19 of 50:	17870176	|FANU  1112300	|07/13/2025	|4:24 AM	|VDEP	|CNSHA	|SRT	|HLCUSHA2506BOZP2	|I	| 	|HOMEDE 156
+2025-07-14 10:28:27.888 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:28:27.888 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:28:27.895 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:28:27.895 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:28:28.750 -04:00 [INF] TASK 1 retriggered event 19 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:28:28.750 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:28:28.750 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:28:28.750 -04:00 [DBG] ===Task 1:
+	Row 20 of 42:	38202635	|HAMU  2883974	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250658578	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:28:29.764 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:28:29.764 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:28:29.764 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:28:29.764 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:28:30.621 -04:00 [INF] TASK 5 retriggered event 17 of 50 under subscription DHLDAN 047
+2025-07-14 10:28:30.623 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:28:30.623 -04:00 [DBG] ===Task 5:
+	Row 18 of 50:	11443741	|SEKU  1460880	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250611712	|I	| 	|DHLDAN 047
+2025-07-14 10:28:30.623 -04:00 [DBG] 	TASK 2 has the mutex (currently SENDing)
+2025-07-14 10:28:30.623 -04:00 [INF] TASK 2 found no valid containers in subscription TARGET 113
+2025-07-14 10:28:30.624 -04:00 [DBG] 	TASK 2 released the mutex (finished SENDing)
+2025-07-14 10:28:30.624 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:28:30.624 -04:00 [INF] 	TASK 2: Searched and retriggered 36 events in 02:43.41
+2025-07-14 10:28:30.628 -04:00 [INF] 
+==========
+Task 2 has finished all its events
+==========
+2025-07-14 10:28:31.631 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:28:31.631 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:28:31.637 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:28:31.637 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:28:32.794 -04:00 [INF] TASK 4 retriggered event 19 of 50 under subscription HOMEDE 156
+2025-07-14 10:28:32.795 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:28:32.795 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:28:32.796 -04:00 [DBG] ===Task 4:
+	Row 20 of 50:	18552937	|HLBU  1979006	|07/13/2025	|12:00 PM	|VDEP	|THLCH	|SRT	|HLCUBKK250640823	|I	| 	|HOMEDE 156
+2025-07-14 10:28:33.810 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:28:33.810 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:28:33.810 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:28:33.810 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:28:34.706 -04:00 [INF] TASK 1 retriggered event 20 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:28:34.711 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:28:34.712 -04:00 [DBG] ===Task 1:
+	Row 21 of 42:	38202635	|HAMU  2968623	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250658578	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:28:34.712 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:28:35.719 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:28:35.719 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:28:35.734 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:28:35.734 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:28:36.787 -04:00 [INF] TASK 5 retriggered event 18 of 50 under subscription DHLDAN 047
+2025-07-14 10:28:36.787 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:28:36.787 -04:00 [DBG] ===Task 5:
+	Row 19 of 50:	11643131	|HAMU  2828719	|07/13/2025	|2:00 PM	|VDEP	|DEHAM	|SRT	|HLCUHAM2506AQIS0	|I	| 	|DHLDAN 047
+2025-07-14 10:28:36.787 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:28:37.797 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:28:37.797 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:28:37.813 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:28:37.813 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:28:38.773 -04:00 [INF] TASK 4 retriggered event 20 of 50 under subscription HOMEDE 156
+2025-07-14 10:28:38.773 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:28:38.773 -04:00 [DBG] ===Task 4:
+	Row 21 of 50:	19574487	|UASU  1072832	|07/13/2025	|2:24 PM	|VDEP	|CNSHK	|OPT	|HLCUSZX2506BWKM2	|I	| 	|HOMEDE 156
+2025-07-14 10:28:38.773 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:28:39.780 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:28:39.780 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:28:39.958 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:28:39.958 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:28:41.187 -04:00 [INF] TASK 1 retriggered event 21 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:28:41.190 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:28:41.190 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:28:41.190 -04:00 [DBG] ===Task 1:
+	Row 22 of 42:	38202635	|TGBU  6123179	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250658578	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:28:42.197 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:28:42.197 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:28:42.301 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:28:42.301 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:28:43.467 -04:00 [INF] TASK 5 retriggered event 19 of 50 under subscription DHLDAN 047
+2025-07-14 10:28:43.467 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:28:43.467 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:28:43.467 -04:00 [DBG] ===Task 5:
+	Row 20 of 50:	11734967	|FCIU  6320341	|07/13/2025	|7:30 AM	|VDEP	|USHOU	|SRT	|HLCUBSC250773720	|I	| 	|DHLDAN 047
+2025-07-14 10:28:44.477 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:28:44.477 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:28:44.563 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:28:44.563 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:28:45.530 -04:00 [INF] TASK 4 retriggered event 21 of 50 under subscription HOMEDE 156
+2025-07-14 10:28:45.530 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:28:45.530 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:28:45.530 -04:00 [DBG] ===Task 4:
+	Row 22 of 50:	20297335	|HAMU  3924960	|07/09/2025	|3:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610278	|I	| 	|HOMEDE 156
+2025-07-14 10:28:46.539 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:28:46.539 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:28:46.552 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:28:46.552 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:28:47.532 -04:00 [INF] TASK 1 retriggered event 22 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:28:47.536 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:28:47.536 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:28:47.536 -04:00 [DBG] ===Task 1:
+	Row 23 of 42:	38227721	|GCXU  5987517	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250662936	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:28:48.540 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:28:48.540 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:28:48.624 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:28:48.624 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:28:50.072 -04:00 [INF] TASK 5 retriggered event 20 of 50 under subscription DHLDAN 047
+2025-07-14 10:28:50.072 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:28:50.072 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:28:50.072 -04:00 [DBG] ===Task 5:
+	Row 21 of 50:	11751993	|TCKU  3548426	|07/09/2025	|3:30 PM	|VDEP	|INMUN	|OPL	|HLCUDE1250641920	|I	| 	|DHLDAN 047
+2025-07-14 10:28:51.084 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:28:51.084 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:28:51.369 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:28:51.369 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:28:52.474 -04:00 [INF] TASK 4 retriggered event 22 of 50 under subscription HOMEDE 156
+2025-07-14 10:28:52.480 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:28:52.480 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:28:52.480 -04:00 [DBG] ===Task 4:
+	Row 23 of 50:	20297335	|HLXU  8312244	|07/09/2025	|3:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610278	|I	| 	|HOMEDE 156
+2025-07-14 10:28:53.495 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:28:53.495 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:28:53.502 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:28:53.502 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:28:54.466 -04:00 [INF] TASK 1 retriggered event 23 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:28:54.468 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:28:54.468 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:28:54.468 -04:00 [DBG] ===Task 1:
+	Row 24 of 42:	38389486	|HLBU  2819960	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|SRT	|HLCUBO12506BODU1	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:28:55.471 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:28:55.471 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:28:55.471 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:28:55.471 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:28:56.191 -04:00 [INF] TASK 5 retriggered event 21 of 50 under subscription DHLDAN 047
+2025-07-14 10:28:56.196 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:28:56.196 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:28:56.197 -04:00 [DBG] ===Task 5:
+	Row 22 of 50:	11863557	|HLBU  9773285	|07/11/2025	|10:06 PM	|VDEP	|SGSIN	|OPT	|HLCUBO12506AXHW0	|I	| 	|DHLDAN 047
+2025-07-14 10:28:57.205 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:28:57.206 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:28:57.223 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:28:57.223 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:28:58.157 -04:00 [INF] TASK 4 retriggered event 23 of 50 under subscription HOMEDE 156
+2025-07-14 10:28:58.158 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:28:58.158 -04:00 [DBG] ===Task 4:
+	Row 24 of 50:	20626750	|FANU  1099358	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610201	|I	| 	|HOMEDE 156
+2025-07-14 10:28:58.158 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:28:59.159 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:28:59.159 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:28:59.225 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:28:59.225 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:29:00.277 -04:00 [INF] TASK 1 retriggered event 24 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:29:00.307 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:29:00.307 -04:00 [DBG] ===Task 1:
+	Row 25 of 42:	39064789	|TCNU  1754058	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250664200	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:29:00.307 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:29:01.323 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:29:01.323 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:29:01.728 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:29:01.728 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:29:02.638 -04:00 [INF] TASK 5 retriggered event 22 of 50 under subscription DHLDAN 047
+2025-07-14 10:29:02.640 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:29:02.640 -04:00 [DBG] ===Task 5:
+	Row 23 of 50:	11882603	|CAAU  5574865	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605063	|I	| 	|DHLDAN 047
+2025-07-14 10:29:02.640 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:29:03.648 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:29:03.648 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:29:03.663 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:29:03.663 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:29:04.504 -04:00 [INF] TASK 4 retriggered event 24 of 50 under subscription HOMEDE 156
+2025-07-14 10:29:04.519 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:29:04.519 -04:00 [DBG] ===Task 4:
+	Row 25 of 50:	20626750	|HAMU  1690055	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610201	|I	| 	|HOMEDE 156
+2025-07-14 10:29:04.519 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:29:05.536 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:29:05.536 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:29:06.554 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:29:06.554 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:29:07.281 -04:00 [INF] TASK 1 retriggered event 25 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:29:07.283 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:29:07.283 -04:00 [DBG] ===Task 1:
+	Row 26 of 42:	66003506	|FANU  3445681	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250658512	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:29:07.283 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:29:08.292 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:29:08.292 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:29:08.307 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:29:08.307 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:29:09.027 -04:00 [INF] TASK 5 retriggered event 23 of 50 under subscription DHLDAN 047
+2025-07-14 10:29:09.030 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:29:09.030 -04:00 [DBG] ===Task 5:
+	Row 24 of 50:	11882603	|CAAU  8500871	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605063	|I	| 	|DHLDAN 047
+2025-07-14 10:29:09.030 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:29:10.032 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:29:10.032 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:29:10.048 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:29:10.048 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:29:11.015 -04:00 [INF] TASK 4 retriggered event 25 of 50 under subscription HOMEDE 156
+2025-07-14 10:29:11.015 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:29:11.015 -04:00 [DBG] ===Task 4:
+	Row 26 of 50:	20626750	|HAMU  2132870	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610201	|I	| 	|HOMEDE 156
+2025-07-14 10:29:11.015 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:29:12.037 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:29:12.037 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:29:12.067 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:29:12.067 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:29:12.987 -04:00 [INF] TASK 1 retriggered event 26 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:29:12.989 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:29:12.989 -04:00 [DBG] ===Task 1:
+	Row 27 of 42:	66003506	|HAMU  2592393	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250658512	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:29:12.990 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:29:14.000 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:29:14.000 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:29:14.279 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:29:14.279 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:29:15.242 -04:00 [INF] TASK 5 retriggered event 24 of 50 under subscription DHLDAN 047
+2025-07-14 10:29:15.242 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:29:15.242 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:29:15.242 -04:00 [DBG] ===Task 5:
+	Row 25 of 50:	11882603	|HAMU  1354894	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605063	|I	| 	|DHLDAN 047
+2025-07-14 10:29:16.246 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:29:16.246 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:29:16.552 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:29:16.552 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:29:17.498 -04:00 [INF] TASK 4 retriggered event 26 of 50 under subscription HOMEDE 156
+2025-07-14 10:29:17.511 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:29:17.511 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:29:17.511 -04:00 [DBG] ===Task 4:
+	Row 27 of 50:	20626750	|HAMU  2701880	|07/13/2025	|12:54 AM	|VDEP	|CNTXG	|SRT	|HLCUEUR250610201	|I	| 	|HOMEDE 156
+2025-07-14 10:29:18.524 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:29:18.524 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:29:18.561 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:29:18.561 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:29:19.441 -04:00 [INF] TASK 1 retriggered event 27 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:29:19.441 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:29:19.441 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:29:19.441 -04:00 [DBG] ===Task 1:
+	Row 28 of 42:	66003506	|HAMU  2654221	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250658512	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:29:20.454 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:29:20.454 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:29:20.476 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:29:20.476 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:29:21.209 -04:00 [INF] TASK 5 retriggered event 25 of 50 under subscription DHLDAN 047
+2025-07-14 10:29:21.209 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:29:21.209 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:29:21.209 -04:00 [DBG] ===Task 5:
+	Row 26 of 50:	11882603	|HAMU  2171028	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605063	|I	| 	|DHLDAN 047
+2025-07-14 10:29:22.225 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:29:22.225 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:29:22.225 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:29:22.225 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:29:23.246 -04:00 [INF] TASK 4 retriggered event 27 of 50 under subscription HOMEDE 156
+2025-07-14 10:29:23.246 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:29:23.246 -04:00 [DBG] ===Task 4:
+	Row 28 of 50:	21813728	|HLXU  8142791	|07/13/2025	|4:24 AM	|VDEP	|CNSHA	|SRT	|HLCUSHA2506BOZT6	|I	| 	|HOMEDE 156
+2025-07-14 10:29:23.246 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:29:24.250 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:29:24.250 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:29:24.326 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:29:24.326 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:29:25.305 -04:00 [INF] TASK 1 retriggered event 28 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:29:25.305 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:29:25.305 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:29:25.305 -04:00 [DBG] ===Task 1:
+	Row 29 of 42:	66003506	|HAMU  2854810	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250658512	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:29:26.327 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:29:26.327 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:29:26.327 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:29:26.327 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:29:27.128 -04:00 [INF] TASK 5 retriggered event 26 of 50 under subscription DHLDAN 047
+2025-07-14 10:29:27.128 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:29:27.128 -04:00 [DBG] ===Task 5:
+	Row 27 of 50:	11882603	|UETU  5727653	|07/10/2025	|10:12 PM	|VDEP	|BRIOA	|SRT	|HLCUIT1250605063	|I	| 	|DHLDAN 047
+2025-07-14 10:29:27.128 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:29:28.151 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:29:28.151 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:29:28.183 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:29:28.183 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:29:29.197 -04:00 [INF] TASK 4 retriggered event 29 of 50 under subscription HOMEDE 156
+2025-07-14 10:29:29.207 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:29:29.207 -04:00 [DBG] ===Task 4:
+	Row 30 of 50:	25107506	|HLBU  2843307	|07/13/2025	|12:00 PM	|VDEP	|THLCH	|SRT	|HLCUBKK250640812	|I	| 	|HOMEDE 156
+2025-07-14 10:29:29.207 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:29:30.210 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:29:30.210 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:29:30.249 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:29:30.249 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:29:31.077 -04:00 [INF] TASK 1 retriggered event 29 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:29:31.077 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:29:31.077 -04:00 [DBG] ===Task 1:
+	Row 30 of 42:	66003506	|HLBU  2054588	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250658512	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:29:31.077 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:29:32.102 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:29:32.102 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:29:32.140 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:29:32.140 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:29:33.175 -04:00 [INF] TASK 5 retriggered event 27 of 50 under subscription DHLDAN 047
+2025-07-14 10:29:33.175 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:29:33.175 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:29:33.175 -04:00 [DBG] ===Task 5:
+	Row 28 of 50:	12059352	|UACU  5562918	|07/13/2025	|10:00 AM	|VDEP	|BRSSZ	|SRT	|HLCUSS5250652662	|I	| 	|DHLDAN 047
+2025-07-14 10:29:34.183 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:29:34.183 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:29:34.198 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:29:34.198 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:29:35.062 -04:00 [INF] TASK 4 retriggered event 32 of 50 under subscription HOMEDE 156
+2025-07-14 10:29:35.064 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:29:35.064 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:29:35.064 -04:00 [DBG] ===Task 4:
+	Row 33 of 50:	28748001	|TCLU  8609157	|07/10/2025	|6:36 AM	|VDEP	|DEBRV	|OPL	|HLCUHAM2505BDUD2	|I	| 	|HOMEDE 156
+2025-07-14 10:29:36.070 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:29:36.070 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:29:36.086 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:29:36.086 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:29:37.209 -04:00 [INF] TASK 1 retriggered event 30 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:29:37.212 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:29:37.212 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:29:37.212 -04:00 [DBG] ===Task 1:
+	Row 31 of 42:	90015054	|CAIU  8530570	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250669588	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:29:38.220 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:29:38.220 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:29:38.250 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:29:38.250 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:29:38.946 -04:00 [INF] TASK 5 retriggered event 28 of 50 under subscription DHLDAN 047
+2025-07-14 10:29:38.948 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:29:38.948 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:29:38.948 -04:00 [DBG] ===Task 5:
+	Row 29 of 50:	12086887	|HAMU  2247587	|07/13/2025	|12:00 PM	|VDEP	|USSAV	|OPL	|HLCUBSC2506BABE2	|I	| 	|DHLDAN 047
+2025-07-14 10:29:39.957 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:29:39.957 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:29:39.972 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:29:39.972 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:29:40.941 -04:00 [INF] TASK 4 retriggered event 33 of 50 under subscription HOMEDE 156
+2025-07-14 10:29:40.943 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:29:40.943 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:29:40.943 -04:00 [DBG] ===Task 4:
+	Row 34 of 50:	29311389	|HLXU  8374396	|07/13/2025	|2:24 PM	|VDEP	|CNSHK	|OPT	|HLCUSZX2506BWKL1	|I	| 	|HOMEDE 156
+2025-07-14 10:29:41.958 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:29:41.958 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:29:42.000 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:29:42.000 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:29:42.835 -04:00 [INF] TASK 1 retriggered event 31 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:29:42.835 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:29:42.835 -04:00 [DBG] ===Task 1:
+	Row 32 of 42:	90015054	|CAIU  9423999	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250669588	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:29:42.835 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:29:43.854 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:29:43.854 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:29:43.860 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:29:43.860 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:29:44.704 -04:00 [INF] TASK 5 retriggered event 29 of 50 under subscription DHLDAN 047
+2025-07-14 10:29:44.708 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:29:44.709 -04:00 [DBG] ===Task 5:
+	Row 30 of 50:	12087958	|HAMU  2805708	|07/09/2025	|8:12 PM	|VDEP	|MYTPP	|OPT	|HLCUEUR2505AWTV5	|I	| 	|DHLDAN 047
+2025-07-14 10:29:44.709 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:29:45.725 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:29:45.725 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:29:45.778 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:29:45.778 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:29:46.615 -04:00 [INF] TASK 4 retriggered event 36 of 50 under subscription HOMEDE 156
+2025-07-14 10:29:46.615 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:29:46.615 -04:00 [DBG] ===Task 4:
+	Row 37 of 50:	31261786	|HLBU  2509650	|07/09/2025	|3:54 AM	|VDEP	|CNTXG	|SRT	|HLCUTS1250700637	|I	| 	|HOMEDE 156
+2025-07-14 10:29:46.615 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:29:47.631 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:29:47.631 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:29:47.714 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:29:47.714 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:29:48.860 -04:00 [INF] TASK 1 retriggered event 32 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:29:48.864 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:29:48.864 -04:00 [DBG] ===Task 1:
+	Row 33 of 42:	90015054	|FANU  1152730	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250669588	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:29:48.864 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:29:49.879 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:29:49.879 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:29:49.996 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:29:49.996 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:29:51.040 -04:00 [INF] TASK 5 retriggered event 30 of 50 under subscription DHLDAN 047
+2025-07-14 10:29:51.040 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:29:51.040 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:29:51.040 -04:00 [DBG] ===Task 5:
+	Row 31 of 50:	12087958	|HAMU  3448842	|07/09/2025	|8:12 PM	|VDEP	|MYTPP	|OPT	|HLCUEUR2505AWTV5	|I	| 	|DHLDAN 047
+2025-07-14 10:29:52.054 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:29:52.054 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:29:52.101 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:29:52.101 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:29:53.473 -04:00 [INF] TASK 4 retriggered event 37 of 50 under subscription HOMEDE 156
+2025-07-14 10:29:53.473 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:29:53.473 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:29:53.473 -04:00 [DBG] ===Task 4:
+	Row 38 of 50:	31261786	|HLXU  8275900	|07/09/2025	|3:54 AM	|VDEP	|CNTXG	|SRT	|HLCUTS1250700637	|I	| 	|HOMEDE 156
+2025-07-14 10:29:54.488 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:29:54.488 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:29:54.673 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:29:54.673 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:29:55.722 -04:00 [INF] TASK 1 retriggered event 33 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:29:55.722 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:29:55.722 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:29:55.722 -04:00 [DBG] ===Task 1:
+	Row 34 of 42:	90015054	|HLBU  1331266	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250669588	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:29:56.739 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:29:56.739 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:29:56.755 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:29:56.755 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:29:57.497 -04:00 [INF] TASK 5 retriggered event 31 of 50 under subscription DHLDAN 047
+2025-07-14 10:29:57.507 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:29:57.507 -04:00 [DBG] ===Task 5:
+	Row 32 of 50:	12092452	|TEMU  5235045	|07/14/2025	|6:14 AM	|VDEP	|PKKHI	|SRT	|HLCUKHI250658510	|I	| 	|DHLDAN 047
+2025-07-14 10:29:57.507 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:29:58.522 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:29:58.522 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:29:58.522 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:29:58.522 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:29:59.399 -04:00 [INF] TASK 4 retriggered event 38 of 50 under subscription HOMEDE 156
+2025-07-14 10:29:59.399 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:29:59.399 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:29:59.399 -04:00 [DBG] ===Task 4:
+	Row 39 of 50:	32039028	|TXGU  6769027	|07/13/2025	|4:24 AM	|VDEP	|CNSHA	|SRT	|HLCUSHA2506BOZO1	|I	| 	|HOMEDE 156
+2025-07-14 10:30:00.417 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:30:00.417 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:30:00.502 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:30:00.502 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:30:01.327 -04:00 [INF] TASK 1 retriggered event 34 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:30:01.327 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:30:01.327 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:01.327 -04:00 [DBG] ===Task 1:
+	Row 35 of 42:	90015054	|UACU  5961712	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250669588	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:30:02.347 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:30:02.347 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:30:02.443 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:30:02.443 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:30:03.301 -04:00 [INF] TASK 5 retriggered event 32 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:03.311 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:03.311 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:30:03.311 -04:00 [DBG] ===Task 5:
+	Row 33 of 50:	12188806	|HAMU  4344457	|07/12/2025	|5:54 AM	|VDEP	|CNNGB	|SRT	|HLCUNG12506UFZI6	|I	| 	|DHLDAN 047
+2025-07-14 10:30:04.315 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:04.315 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:04.337 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:04.337 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:05.136 -04:00 [INF] TASK 4 retriggered event 43 of 50 under subscription HOMEDE 156
+2025-07-14 10:30:05.136 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:30:05.136 -04:00 [DBG] ===Task 4:
+	Row 44 of 50:	33072072	|HAMU  1365883	|07/13/2025	|4:24 AM	|VDEP	|CNSHA	|SRT	|HLCUSHA2506BOZW0	|I	| 	|HOMEDE 156
+2025-07-14 10:30:05.136 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:30:06.150 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:30:06.150 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:30:06.188 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:30:06.188 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:30:06.873 -04:00 [INF] TASK 1 retriggered event 35 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:30:06.873 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:30:06.873 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:06.873 -04:00 [DBG] ===Task 1:
+	Row 36 of 42:	90064630	|HLXU  8337134	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|SRT	|HLCUBO12506BLYL0	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:30:07.880 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:30:07.880 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:30:07.880 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:30:07.880 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:30:08.604 -04:00 [INF] TASK 5 retriggered event 33 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:08.609 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:08.609 -04:00 [DBG] ===Task 5:
+	Row 34 of 50:	12419345	|FANU  3834744	|07/10/2025	|3:50 PM	|VDEP	|CNTAC	|SRT	|HLCUNK2250605221	|I	| 	|DHLDAN 047
+2025-07-14 10:30:08.609 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:30:09.621 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:09.621 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:09.643 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:09.643 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:10.576 -04:00 [INF] TASK 4 retriggered event 46 of 50 under subscription HOMEDE 156
+2025-07-14 10:30:10.581 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:30:10.581 -04:00 [DBG] ===Task 4:
+	Row 47 of 50:	35036555	|GCXU  5884294	|07/11/2025	|1:00 AM	|VDEP	|KHPNH	|SRT	|HLCUPN7250605313	|I	| 	|HOMEDE 156
+2025-07-14 10:30:10.581 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:30:11.583 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:30:11.583 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:30:11.600 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:30:11.600 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:30:12.615 -04:00 [INF] TASK 1 retriggered event 36 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:30:12.618 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:30:12.618 -04:00 [DBG] ===Task 1:
+	Row 37 of 42:	90187374	|BSIU  8300629	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250663179	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:30:12.618 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:13.621 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:30:13.621 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:30:13.637 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:30:13.637 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:30:14.653 -04:00 [INF] TASK 5 retriggered event 34 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:14.653 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:30:14.653 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:14.653 -04:00 [DBG] ===Task 5:
+	Row 35 of 50:	12533672	|HLBU  2188709	|07/09/2025	|7:54 PM	|VDEP	|CNNGB	|SRT	|HLCUNG12506DNUS3	|I	| 	|DHLDAN 047
+2025-07-14 10:30:15.678 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:15.678 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:17.121 -04:00 [INF] TASK 4 retriggered event 47 of 50 under subscription HOMEDE 156
+2025-07-14 10:30:17.121 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:30:17.121 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:30:17.121 -04:00 [DBG] ===Task 4:
+	Row 48 of 50:	35036555	|HAMU  2989333	|07/11/2025	|1:00 AM	|VDEP	|KHPNH	|SRT	|HLCUPN7250605313	|I	| 	|HOMEDE 156
+2025-07-14 10:30:18.002 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:18.002 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:18.156 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:30:18.156 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:30:18.187 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:30:18.187 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:30:19.083 -04:00 [INF] TASK 1 retriggered event 37 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:30:19.094 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:30:19.094 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:19.094 -04:00 [DBG] ===Task 1:
+	Row 38 of 42:	90187374	|HAMU  1502219	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250663179	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:30:20.105 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:30:20.105 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:30:20.111 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:30:20.111 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:30:20.912 -04:00 [INF] TASK 5 retriggered event 35 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:20.912 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:20.912 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:30:20.912 -04:00 [DBG] ===Task 5:
+	Row 36 of 50:	12738966	|BEAU  4825964	|07/09/2025	|2:24 PM	|VDEP	|AEJEA	|SRT	|HLCUDX3250649950	|I	| 	|DHLDAN 047
+2025-07-14 10:30:21.926 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:21.926 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:21.941 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:21.941 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:22.653 -04:00 [INF] TASK 4 retriggered event 48 of 50 under subscription HOMEDE 156
+2025-07-14 10:30:22.663 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:30:22.663 -04:00 [DBG] ===Task 4:
+	Row 49 of 50:	35036555	|HAMU  3922946	|07/11/2025	|1:00 AM	|VDEP	|KHPNH	|SRT	|HLCUPN7250605313	|I	| 	|HOMEDE 156
+2025-07-14 10:30:22.663 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:30:23.678 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:30:23.678 -04:00 [DBG] TASK 4 looking for a valid container
+2025-07-14 10:30:23.700 -04:00 [DBG] TASK 4 found a valid container!
+2025-07-14 10:30:23.700 -04:00 [DBG]  __== TASK 4: instance 660364821 requesting mutex to run SEND ==__
+2025-07-14 10:30:24.450 -04:00 [INF] TASK 1 retriggered event 38 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:30:24.452 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:30:24.452 -04:00 [DBG] ===Task 1:
+	Row 39 of 42:	90187374	|HAMU  2275980	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250663179	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:30:24.452 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:25.461 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:30:25.461 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:30:25.477 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:30:25.477 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:30:26.334 -04:00 [INF] TASK 5 retriggered event 36 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:26.337 -04:00 [DBG] 	TASK 4 has the mutex (currently SENDing)
+2025-07-14 10:30:26.337 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:26.339 -04:00 [DBG] ===Task 5:
+	Row 37 of 50:	12769466	|CAAU  5740190	|07/13/2025	|10:00 AM	|VDEP	|BRSSZ	|SRT	|HLCUSS5250635814	|I	| 	|DHLDAN 047
+2025-07-14 10:30:27.354 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:27.354 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:27.375 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:27.375 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:28.213 -04:00 [INF] TASK 4 retriggered event 50 of 50 under subscription HOMEDE 156
+2025-07-14 10:30:28.214 -04:00 [DBG] 	TASK 4 released the mutex (finished SENDing)
+2025-07-14 10:30:28.214 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:30:28.214 -04:00 [DBG] ===Task 4:
+	Row 51 of 50:	36098939	|FANU  1855645	|07/11/2025	|1:00 AM	|VDEP	|KHPNH	|SRT	|HLCUPN7250611235	|I	| 	|HOMEDE 156
+2025-07-14 10:30:29.221 -04:00 [DBG] TASK 4 finished waiting
+2025-07-14 10:30:29.221 -04:00 [INF] 	TASK 4: Searched and retriggered 50 events in 05:12.44
+2025-07-14 10:30:29.221 -04:00 [INF] 
+==========
+Task 4 has finished all its events
+==========
+2025-07-14 10:30:30.738 -04:00 [INF] TASK 1 retriggered event 39 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:30:30.738 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:30:30.738 -04:00 [DBG] ===Task 1:
+	Row 40 of 42:	90187374	|UACU  5649685	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250663179	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:30:30.738 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:31.749 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:30:31.749 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:30:31.782 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:30:31.782 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:30:32.525 -04:00 [INF] TASK 5 retriggered event 37 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:32.527 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:32.527 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:30:32.527 -04:00 [DBG] ===Task 5:
+	Row 38 of 50:	12771369	|HLBU  9768231	|07/09/2025	|2:54 PM	|VDEP	|INNSA	|SRT	|HLCUBO12506BJEP6	|I	| 	|DHLDAN 047
+2025-07-14 10:30:33.530 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:33.530 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:33.535 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:33.535 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:34.296 -04:00 [INF] TASK 1 retriggered event 40 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:30:34.296 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:34.296 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:30:34.296 -04:00 [DBG] ===Task 1:
+	Row 41 of 42:	90187374	|UACU  5875511	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250663179	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:30:35.311 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:30:35.311 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:30:35.342 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:30:35.342 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:30:35.955 -04:00 [INF] TASK 5 retriggered event 38 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:35.955 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:35.955 -04:00 [DBG] ===Task 5:
+	Row 39 of 50:	13071965	|HAMU  1383064	|07/09/2025	|7:54 PM	|VDEP	|CNNGB	|SRT	|HLCUNG12506DSVV1	|I	| 	|DHLDAN 047
+2025-07-14 10:30:35.955 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:30:36.970 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:36.970 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:36.980 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:36.980 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:37.830 -04:00 [INF] TASK 1 retriggered event 41 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:30:37.830 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:37.830 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:30:37.830 -04:00 [DBG] ===Task 1:
+	Row 42 of 42:	93092249	|UACU  5815404	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250664105	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:30:38.838 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:30:38.838 -04:00 [DBG] TASK 1 looking for a valid container
+2025-07-14 10:30:38.838 -04:00 [DBG] TASK 1 found a valid container!
+2025-07-14 10:30:38.838 -04:00 [DBG]  __== TASK 1: instance 849814406 requesting mutex to run SEND ==__
+2025-07-14 10:30:39.765 -04:00 [INF] TASK 5 retriggered event 39 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:39.765 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:39.765 -04:00 [DBG] ===Task 5:
+	Row 40 of 50:	13071965	|HLBU  2106315	|07/09/2025	|7:54 PM	|VDEP	|CNNGB	|SRT	|HLCUNG12506DSVV1	|I	| 	|DHLDAN 047
+2025-07-14 10:30:39.767 -04:00 [DBG] 	TASK 1 has the mutex (currently SENDing)
+2025-07-14 10:30:40.774 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:40.774 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:40.774 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:40.774 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:41.523 -04:00 [INF] TASK 1 retriggered event 42 of 42 under subscription CRATE&BARREL GTN
+2025-07-14 10:30:41.531 -04:00 [DBG] 	TASK 1 released the mutex (finished SENDing)
+2025-07-14 10:30:41.531 -04:00 [DBG] ===Task 1:
+	Row 43 of 42:	94117877	|UACU  5926959	|07/12/2025	|3:30 AM	|VDEP	|INMUN	|OPL	|HLCUDE1250656539	|I	| 	|CRATE&BARREL GTN
+2025-07-14 10:30:41.531 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:42.537 -04:00 [DBG] TASK 1 finished waiting
+2025-07-14 10:30:42.537 -04:00 [INF] 	TASK 1: Searched and retriggered 42 events in 05:25.76
+2025-07-14 10:30:42.537 -04:00 [INF] 
+==========
+Task 1 has finished all its events
+==========
+2025-07-14 10:30:43.345 -04:00 [INF] TASK 5 retriggered event 40 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:43.351 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:43.351 -04:00 [DBG] ===Task 5:
+	Row 41 of 50:	13190878	|HLBU  2805631	|07/12/2025	|5:54 AM	|VDEP	|CNNGB	|SRT	|HLCUNG12506DTYE3	|I	| 	|DHLDAN 047
+2025-07-14 10:30:44.359 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:44.359 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:44.385 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:44.385 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:44.385 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:45.609 -04:00 [INF] TASK 5 retriggered event 41 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:45.610 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:45.611 -04:00 [DBG] ===Task 5:
+	Row 42 of 50:	13393459	|HAMU  4386832	|07/13/2025	|4:42 AM	|VDEP	|CNTAO	|SRT	|HLCUTA12507CZSW7	|I	| 	|DHLDAN 047
+2025-07-14 10:30:46.614 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:46.614 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:46.645 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:46.645 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:46.645 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:47.698 -04:00 [INF] TASK 5 retriggered event 42 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:47.703 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:47.703 -04:00 [DBG] ===Task 5:
+	Row 43 of 50:	13522546	|HLBU  9982583	|07/09/2025	|1:42 PM	|VDEP	|ESVLC	|SRT	|HLCUBC1250701324	|I	| 	|DHLDAN 047
+2025-07-14 10:30:48.708 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:48.708 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:48.720 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:48.720 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:48.720 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:49.990 -04:00 [INF] TASK 5 retriggered event 43 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:50.035 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:50.035 -04:00 [DBG] ===Task 5:
+	Row 44 of 50:	13541089	|HLXU  8121973	|07/11/2025	|8:42 AM	|VDEP	|CNTXG	|SRT	|HLCUTS12506AUVG5	|I	| 	|DHLDAN 047
+2025-07-14 10:30:51.049 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:51.049 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:51.049 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:51.049 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:51.049 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:52.408 -04:00 [INF] TASK 5 retriggered event 44 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:52.408 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:52.408 -04:00 [DBG] ===Task 5:
+	Row 45 of 50:	13736601	|HAMU  1578596	|07/12/2025	|8:12 AM	|VDEP	|CNSHA	|SRT	|HLCUSHA250606478	|I	| 	|DHLDAN 047
+2025-07-14 10:30:53.418 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:53.418 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:53.573 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:53.573 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:53.573 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:54.829 -04:00 [INF] TASK 5 retriggered event 45 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:54.829 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:54.829 -04:00 [DBG] ===Task 5:
+	Row 46 of 50:	13752594	|FDCU  0335621	|07/09/2025	|8:12 PM	|VDEP	|MYTPP	|OPT	|HLCUPN7250523334	|I	| 	|DHLDAN 047
+2025-07-14 10:30:55.842 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:55.842 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:55.858 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:55.858 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:55.858 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:56.905 -04:00 [INF] TASK 5 retriggered event 46 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:56.915 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:56.915 -04:00 [DBG] ===Task 5:
+	Row 47 of 50:	13752594	|HAMU  2345198	|07/09/2025	|8:12 PM	|VDEP	|MYTPP	|OPT	|HLCUPN7250523334	|I	| 	|DHLDAN 047
+2025-07-14 10:30:57.930 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:30:57.930 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:30:58.053 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:30:58.053 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:30:58.053 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:30:59.347 -04:00 [INF] TASK 5 retriggered event 47 of 50 under subscription DHLDAN 047
+2025-07-14 10:30:59.360 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:30:59.360 -04:00 [DBG] ===Task 5:
+	Row 48 of 50:	13752594	|HLBU  2547692	|07/09/2025	|8:12 PM	|VDEP	|MYTPP	|OPT	|HLCUPN7250523334	|I	| 	|DHLDAN 047
+2025-07-14 10:31:00.374 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:31:00.374 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:31:00.388 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:31:00.388 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:31:00.388 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:31:01.445 -04:00 [INF] TASK 5 retriggered event 48 of 50 under subscription DHLDAN 047
+2025-07-14 10:31:01.449 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:31:01.450 -04:00 [DBG] ===Task 5:
+	Row 49 of 50:	13752594	|HLBU  3432620	|07/09/2025	|8:12 PM	|VDEP	|MYTPP	|OPT	|HLCUPN7250523334	|I	| 	|DHLDAN 047
+2025-07-14 10:31:02.457 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:31:02.457 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:31:02.463 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:31:02.463 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:31:02.463 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:31:03.548 -04:00 [INF] TASK 5 retriggered event 49 of 50 under subscription DHLDAN 047
+2025-07-14 10:31:03.549 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:31:03.549 -04:00 [DBG] ===Task 5:
+	Row 50 of 50:	13752594	|TCKU  6554280	|07/09/2025	|8:12 PM	|VDEP	|MYTPP	|OPT	|HLCUPN7250523334	|I	| 	|DHLDAN 047
+2025-07-14 10:31:04.560 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:31:04.560 -04:00 [DBG] TASK 5 looking for a valid container
+2025-07-14 10:31:04.560 -04:00 [DBG] TASK 5 found a valid container!
+2025-07-14 10:31:04.560 -04:00 [DBG]  __== TASK 5: instance 1848377385 requesting mutex to run SEND ==__
+2025-07-14 10:31:04.560 -04:00 [DBG] 	TASK 5 has the mutex (currently SENDing)
+2025-07-14 10:31:05.859 -04:00 [INF] TASK 5 retriggered event 50 of 50 under subscription DHLDAN 047
+2025-07-14 10:31:05.866 -04:00 [DBG] 	TASK 5 released the mutex (finished SENDing)
+2025-07-14 10:31:05.868 -04:00 [DBG] ===Task 5:
+	Row 51 of 50:	13775445	|FANU  3677898	|07/13/2025	|7:54 PM	|VDEP	|BEANR	|SRT	|HLCULE1250669341	|I	| 	|DHLDAN 047
+2025-07-14 10:31:06.870 -04:00 [DBG] TASK 5 finished waiting
+2025-07-14 10:31:06.870 -04:00 [INF] 	TASK 5: Searched and retriggered 50 events in 05:50.10
+2025-07-14 10:31:06.870 -04:00 [INF] 
+==========
+Task 5 has finished all its events
+==========
+2025-07-14 10:31:07.377 -04:00 [INF] Macro spent 05:58.46 in total.
+2025-07-14 10:31:07.377 -04:00 [INF] Total subscriptions: 13
+2025-07-14 10:31:07.377 -04:00 [INF] Concurrent tasks: 7
+2025-07-14 10:31:07.377 -04:00 [INF] Macro found a total of 398 incomplete events and retriggered 156
+2025-07-14 10:31:07.377 -04:00 [INF] Macro skipped the dummy containers
