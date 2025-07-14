@@ -7,38 +7,32 @@ from datetime import datetime as dt
 from datetime import timedelta as delta
 import re
 
-layers = ["total","mutex","search","send","wait","valid"]
-# global gantt_dict
-
-# Date objects representing the start and end of the program
-# first_dt = dt.now()
-# last_dt = dt.now()
-# duration_seconds = last_dt - first_dt
+layers = ["total","mutex","search","send","delay","valid"]
 
 # Regex strings for each event type
 start_patterns = {
-    "total" : "(?<=Task )\d(?= assigned)",
-    "mutex" : "(?<=TASK )\d(?=.*has.*mutex.*)",
-    "search" : "(?<=TASK )\d(?=.*Searching)",
-    "send" : "(?<=TASK )\d(?=.*found)",
-    "wait" : "(?<=TASK )\d(?= retriggered)",
-    "valid" : "(?<=TASK )\d(?= looking)"
+    "total" : r"(?<=Task )\d(?= assigned)",
+    "mutex" : r"(?<=TASK )\d(?=.*has.*mutex.*)",
+    "search" : r"(?<=TASK )\d(?=.*Searching)",
+    "send" : r"(?<=TASK )\d(?=.*found)",
+    "delay" : r"(?<=TASK )\d(?= retriggered)",
+    "valid" : r"(?<=TASK )\d(?= looking)"
 }
 end_patterns = {
-    "total" : "(?<=Task )\d(?=.*all)",
-    "mutex" : "(?<=TASK )\d(?=.*released.*mutex)",
-    "search" : "(?<=TASK )\d(?=.*released.*mutex.*SEARCH)",
-    "send" : "(?<=TASK )\d(?=.*finished SEND)",
-    "wait" : "(?<=TASK )\d(?=.*waiting)",
-    "valid" : "(?<=TASK )\d(?= found)"
+    "total" : r"(?<=Task )\d(?=.*all)",
+    "mutex" : r"(?<=TASK )\d(?=.*released.*mutex)",
+    "search" : r"(?<=TASK )\d(?=.*released.*mutex.*SEARCH)",
+    "send" : r"(?<=TASK )\d(?=.*finished SEND)",
+    "delay" : r"(?<=TASK )\d(?=.*waiting)",
+    "valid" : r"(?<=TASK )\d(?= found)"
 }
 
 height_and_color = {
     "total" : (3,'#462d26ff'),
-    "mutex" : (15,'#6b6a65e7'),
+    "mutex" : (15,'#30302ee7'),
     "search" : (11,'#395c78ff'),
     "send" : (7,'#9d312fd6'),
-    "wait" : (6,'#ef9849'),
+    "delay" : (6,'#ef9849'),
     "valid" : (10, '#768a88ff')
 }
 
@@ -133,7 +127,7 @@ def get_datetime_from_line(line:str):
     Returns:
         datetime object or None
     """
-    regex = "\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3}"
+    regex = r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3}"
     datestring = find_from_line(regex,line)
     global last_valid_date
     try:
@@ -181,7 +175,8 @@ def make_gantt_chart():
             #                 label=f'{("" if event_type in labels else "_")}{event_type}')
             # labels.add(event_type)
 
-    plt.legend()
+    plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc='lower left',
+                      ncols=2, mode="expand", borderaxespad=0.)
     plt.show()
     # gnt.broken_barh([(40, 50.5)], (30, 9), facecolors =('tab:orange'))
 
