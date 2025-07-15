@@ -7,7 +7,7 @@ from datetime import datetime as dt
 from datetime import timedelta as delta
 import re
 
-layers = ["total","mutex","search","send","delay","valid"]
+layers = ["total","mutex","search","send","delay","valid","request"]
 
 # Regex strings for each event type
 start_patterns = {
@@ -16,7 +16,8 @@ start_patterns = {
     "search" : r"(?<=TASK )\d(?=.*Searching)",
     "send" : r"(?<=TASK )\d(?=.*found)",
     "delay" : r"(?<=TASK )\d(?= retriggered)",
-    "valid" : r"(?<=TASK )\d(?= looking)"
+    "valid" : r"(?<=TASK )\d(?= looking)",
+    "request" : r"(?<=TASK )\d(?=.*requesting)"
 }
 end_patterns = {
     "total" : r"(?<=Task )\d(?=.*all)",
@@ -24,7 +25,8 @@ end_patterns = {
     "search" : r"(?<=TASK )\d(?=.*released.*mutex.*SEARCH)",
     "send" : r"(?<=TASK )\d(?=.*finished SEND)",
     "delay" : r"(?<=TASK )\d(?=.*waiting)",
-    "valid" : r"(?<=TASK )\d(?= found)"
+    "valid" : r"(?<=TASK )\d(?= found)",
+    "request" : ""
 }
 
 height_and_color = {
@@ -33,7 +35,8 @@ height_and_color = {
     "search" : (11,'#395c78ff'),
     "send" : (7,'#9d312fd6'),
     "delay" : (6,'#ef9849'),
-    "valid" : (10, '#768a88ff')
+    "valid" : (10, '#768a88ff'),
+    "request" : (16,'#57a851')
 }
 
 def main():
@@ -103,7 +106,7 @@ def line_to_gantt_event(line:str):
             # Check if the line is the start of an event
             if task_start:
                 timestamp = get_seconds_since_start(line)
-                gantt_dict[event_type][int(task_start)].append((timestamp,1))
+                gantt_dict[event_type][int(task_start)].append((timestamp,0.1))
             elif task_end:
                 # Get the most recently added event for the given type and task
                 begins = gantt_dict[event_type][int(task_end)][-1][0]
@@ -142,7 +145,7 @@ def make_gantt_chart():
     gnt.set_ylim(0,100)
     gnt.set_xlim(0,duration_seconds.total_seconds())
 
-    gnt.set_xlabel('Seconds')
+    gnt.set_xlabel('Elapsed Time (Seconds)')
     gnt.set_ylabel('Task ID')
 
     # y-axis ticks
@@ -154,10 +157,6 @@ def make_gantt_chart():
 
     gnt.grid(True)
 
-    # bars
-    # gnt.broken_barh(gantt_dict["mutex"][0], (tickmarks[0],9), facecolors='black')
-    # for thread_ID, lst in gantt_dict["mutex"].items():
-    #     gnt.broken_barh(lst,(tickmarks[thread_ID],9),facecolors='black')
     labels = set()
     for event_type, tasks in gantt_dict.items():
         for task_ID, lst in tasks.items():
@@ -170,10 +169,6 @@ def make_gantt_chart():
                 labels.add(event_type)
                 gnt.broken_barh(lst,(tickmarks[task_ID]-height*0.5,height),facecolors=color,
                             label=event_type)
-
-            # gnt.broken_barh(lst,(tickmarks[task_ID]-height*0.5,height),facecolors=color,
-            #                 label=f'{("" if event_type in labels else "_")}{event_type}')
-            # labels.add(event_type)
 
     plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc='lower left',
                       ncols=2, mode="expand", borderaxespad=0.)
