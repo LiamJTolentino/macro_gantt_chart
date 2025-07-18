@@ -26,7 +26,7 @@ end_patterns = {
     "send" : r"(?<=TASK )\d(?=.*finished SEND)",
     "delay" : r"(?<=TASK )\d(?=.*waiting)",
     "valid" : r"(?<=TASK )\d(?= found)",
-    "request" : ""
+    "request" : r""
 }
 
 height_and_color = {
@@ -34,9 +34,9 @@ height_and_color = {
     "mutex" : (15,'#30302ee7'),
     "search" : (11,'#395c78ff'),
     "send" : (7,'#9d312fd6'),
-    "delay" : (6,'#ef9849'),
+    "delay" : (6,'#ef9849ef'),
     "valid" : (10, '#768a88ff'),
-    "request" : (16,'#57a851')
+    "request" : (16,'#57a851ff')
 }
 
 def main():
@@ -58,6 +58,7 @@ def main():
         content = file.readlines()
 
     num_tasks = get_num_tasks(content)
+    print(f'{num_tasks} tasks found')
     # gantt_dict = {k:[] for k in range(num_tasks)}
     gantt_dict = {g:{k:[] for k in range(num_tasks)} for g in layers}
     first_dt = get_datetime_from_line(content[0])
@@ -65,11 +66,9 @@ def main():
     last_valid_date = last_dt
     # print(last_valid_date)
     duration_seconds = last_dt - first_dt
-    # print((last_dt - first_dt).total_seconds()/60)
-    # print(num_tasks)
-    # print(gantt_dict)
-    # gantt_dict["mutex"][0].append((0,5))
-    # print(gantt_dict['mutex'][0])
+    print(first_dt.ctime())
+    print(last_dt.ctime())
+    print(duration_seconds.total_seconds())
     for line in content:
         line_to_gantt_event(line)
     
@@ -113,7 +112,7 @@ def line_to_gantt_event(line:str):
                 timestamp = get_seconds_since_start(line)
                 gantt_dict[event_type][int(task_end)][-1] = (begins,timestamp - begins)
         except:
-            # print(gantt_dict)
+            print(gantt_dict[event_type])
             raise Exception(f"Caused by this line: \n{line}")
         pass
 
@@ -159,6 +158,7 @@ def make_gantt_chart():
 
     labels = set()
     for event_type, tasks in gantt_dict.items():
+        print(event_type)
         for task_ID, lst in tasks.items():
             height = height_and_color[event_type][0]
             color = height_and_color[event_type][1]
